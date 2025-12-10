@@ -29,7 +29,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",      # Next.js dev server
         "http://127.0.0.1:3000",      # Alternative localhost
-        "http://localhost:3001",      # In case you use different port
+        "http://localhost:3001", 
+        "interview-den-web-services.railway.internal"     # In case you use different port
     ],
     allow_credentials=True,
     allow_methods=["*"],              # Allow all methods (POST, GET, etc.)
