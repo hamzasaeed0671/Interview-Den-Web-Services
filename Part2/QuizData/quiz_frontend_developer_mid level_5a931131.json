@@ -1,0 +1,362 @@
+{
+  "quiz_id": "quiz_frontend_developer_mid level_5a931131",
+  "job_info": {
+    "job_title": "Frontend Developer",
+    "role_description": "We are looking for a skilled Frontend Developer to join our team and help build intuitive, performant, and visually appealing web applications. You will work closely with designers, backend developers, and product managers to deliver seamless user experiences that align with business goals.",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Mid Level"
+    },
+    "skills_required": {
+      "technical_skills": [],
+      "soft_skills": [
+        "Good problem-solving, debugging, and communication skills."
+      ]
+    },
+    "job_responsibilities": [
+      "Develop responsive, accessible, and user-friendly interfaces using modern frontend frameworks (React, Next.js, Vue, etc.).",
+      "Integrate APIs and backend services to deliver dynamic web experiences.",
+      "Collaborate with UI/UX designers to translate designs into functional components.",
+      "Optimize web applications for speed, scalability, and cross-browser compatibility.",
+      "Participate in code reviews, version control (Git), and agile development practices.",
+      "Debug, test, and maintain code to ensure high quality and reliability.",
+      "Stay updated with the latest frontend trends, libraries, and best practices."
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Mid Level"
+  },
+  "questions": [
+    {
+      "question": "In a Next.js page component, which hook should you call to retrieve dynamic route parameters from the URL?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "useParams()"
+        },
+        {
+          "letter": "B",
+          "text": "useRouter()"
+        },
+        {
+          "letter": "C",
+          "text": "usePathname()"
+        },
+        {
+          "letter": "D",
+          "text": "useSearchParams()"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. Which CSS feature allows you to create a responsive grid that automatically fits as many 200 px-wide columns as possible into the container?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));"
+        },
+        {
+          "letter": "B",
+          "text": "grid-auto-columns: 200px;"
+        },
+        {
+          "letter": "C",
+          "text": "grid-template-columns: auto 200px;"
+        },
+        {
+          "letter": "D",
+          "text": "display: flex; flex: 0 0 200px;"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "3. You receive a 401 response from an API call in a React app. What is the most appropriate client-side action?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retry the request with exponential backoff"
+        },
+        {
+          "letter": "B",
+          "text": "Redirect the user to the login page and refresh the access token"
+        },
+        {
+          "letter": "C",
+          "text": "Switch to a fallback API endpoint"
+        },
+        {
+          "letter": "D",
+          "text": "Cache the response for offline use"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. Which of the following will best prevent XSS when rendering user-generated HTML in React?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "{userHtml}"
+        },
+        {
+          "letter": "B",
+          "text": "<div innerHTML={userHtml} />"
+        },
+        {
+          "letter": "C",
+          "text": "<div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(userHtml) }} />"
+        },
+        {
+          "letter": "D",
+          "text": "<span>{userHtml}</span>"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. Vue 3 exposes refs and reactive. What is the key difference when destructuring them?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "refs are automatically unwrapped in templates; reactive loses reactivity when destructured"
+        },
+        {
+          "letter": "B",
+          "text": "reactive only works for arrays, refs for objects"
+        },
+        {
+          "letter": "C",
+          "text": "refs are deprecated in Vue 3"
+        },
+        {
+          "letter": "D",
+          "text": "No difference; both stay reactive after destructuring"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "6. You need to lazy-load a React component. Which syntax is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "const LazyComp = () => import('./LazyComp');"
+        },
+        {
+          "letter": "B",
+          "text": "const LazyComp = React.lazy(() => import('./LazyComp'));"
+        },
+        {
+          "letter": "C",
+          "text": "const LazyComp = lazy('./LazyComp');"
+        },
+        {
+          "letter": "D",
+          "text": "const LazyComp = dynamic(() => import('./LazyComp'));"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "7. A Lighthouse report flags \"Eliminate render-blocking resources\". Which change offers the biggest win?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Convert images to WebP"
+        },
+        {
+          "letter": "B",
+          "text": "Defer non-critical CSS with <link rel=\"preload\" as=\"style\" onload=\"this.rel='stylesheet'\">"
+        },
+        {
+          "letter": "C",
+          "text": "Add font-display: swap;"
+        },
+        {
+          "letter": "D",
+          "text": "Minify inline JavaScript"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "8. You want to share non-visual logic between multiple Vue components. What is the recommended composition-api approach?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mixins"
+        },
+        {
+          "letter": "B",
+          "text": "Scoped slots"
+        },
+        {
+          "letter": "C",
+          "text": "Composable (hook) function"
+        },
+        {
+          "letter": "D",
+          "text": "Event bus"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "9. Which HTTP caching header should you set on a static Next.js asset that can never change once built?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cache-Control: no-cache"
+        },
+        {
+          "letter": "B",
+          "text": "Cache-Control: max-age=0, must-revalidate"
+        },
+        {
+          "letter": "C",
+          "text": "Cache-Control: public, max-age=31536000, immutable"
+        },
+        {
+          "letter": "D",
+          "text": "Expires: 0"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "10. React key props help reconcile lists. Which statement about keys is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keys must be globally unique across the whole app"
+        },
+        {
+          "letter": "B",
+          "text": "Array indices are always safe as keys"
+        },
+        {
+          "letter": "C",
+          "text": "Keys should be stable, predictable, and unique among siblings"
+        },
+        {
+          "letter": "D",
+          "text": "Keys are ignored in server-side rendering"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "11. You run npm audit and see 3 high-severity vulnerabilities in devDependencies. What is the safest first step?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Delete package-lock.json and reinstall"
+        },
+        {
+          "letter": "B",
+          "text": "Ignore them; they are only in devDependencies"
+        },
+        {
+          "letter": "C",
+          "text": "Run npm audit fix --dry-run to review automatic fixes"
+        },
+        {
+          "letter": "D",
+          "text": "Upgrade every package to latest major versions"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "12. Which statement about CSS specificity is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inline styles always lose to !important"
+        },
+        {
+          "letter": "B",
+          "text": "#id selectors have higher specificity than .class selectors"
+        },
+        {
+          "letter": "C",
+          "text": "The universal selector * has specificity 0,0,1,0"
+        },
+        {
+          "letter": "D",
+          "text": "Specificity is irrelevant inside Shadow DOM"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. You want to run a side effect only once after a React component mounts. Which useEffect dependency array should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No dependency array"
+        },
+        {
+          "letter": "B",
+          "text": "[]"
+        },
+        {
+          "letter": "C",
+          "text": "[componentDidMount]"
+        },
+        {
+          "letter": "D",
+          "text": "[props]"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. In TypeScript, you import a third-party module without types. Which declaration file name will the compiler automatically pick up?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "index.d.ts"
+        },
+        {
+          "letter": "B",
+          "text": "module-name.ts"
+        },
+        {
+          "letter": "C",
+          "text": "module-name.d.ts inside @types"
+        },
+        {
+          "letter": "D",
+          "text": "types.d.ts in the project root"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "15. Which Git command safely rewrites your last commit message without changing content?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git revert HEAD -m \"New message\""
+        },
+        {
+          "letter": "B",
+          "text": "git reset --soft HEAD~1"
+        },
+        {
+          "letter": "C",
+          "text": "git commit --amend -m \"New message\""
+        },
+        {
+          "letter": "D",
+          "text": "git rebase -i HEAD~2"
+        }
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}

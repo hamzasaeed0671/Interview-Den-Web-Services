@@ -1,0 +1,478 @@
+{
+  "quiz_id": "quiz_project_manager_entry level_037cdc1e",
+  "job_info": {
+    "job_title": "Project Manager",
+    "role_description": "About the Role\n\nWe are seeking a highly organized and proactive Project Manager to lead and coordinate our product development initiatives from planning to delivery. The ideal candidate is skilled at balancing priorities, managing cross-functional teams, and ensuring that projects are delivered on time, within scope, and aligned with business objectives.\n\nYou will serve as the bridge between technical teams, design, stakeholders, and management — ensuring smooth communication, risk management, and progress tracking throughout the project lifecycle.",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Entry Level"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Frontend"
+      ],
+      "soft_skills": [
+        "Excellent communication, organization, and leadership skills.",
+        "Excellent communication, organization, and leadership skills."
+      ]
+    },
+    "job_responsibilities": [
+      "Key Responsibilities",
+      "Plan, execute, and monitor projects using Agile or Scrum methodologies.",
+      "Define clear project scopes, deliverables, timelines, and milestones.",
+      "Coordinate with engineering, design, and business teams to ensure alignment.",
+      "Manage and maintain project documentation, progress reports, and risk logs.",
+      "Conduct daily standups, sprint planning, and retrospectives.",
+      "Track project KPIs, resource allocation, and dependencies.",
+      "Communicate project status and blockers to stakeholders effectively.",
+      "Identify risks early and implement mitigation strategies.",
+      "Ensure high-quality delivery that aligns with client or product requirements."
+    ]
+  },
+  "metadata": {
+    "question_count": 20,
+    "level": "Entry Level"
+  },
+  "questions": [
+    {
+      "question": "In Scrum, what is the maximum recommended duration of a daily stand-up?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "15 minutes"
+        },
+        {
+          "letter": "B",
+          "text": "30 minutes"
+        },
+        {
+          "letter": "C",
+          "text": "45 minutes"
+        },
+        {
+          "letter": "D",
+          "text": "60 minutes"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "2. Which artifact lists all planned work for the current sprint?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Product backlog"
+        },
+        {
+          "letter": "B",
+          "text": "Sprint backlog"
+        },
+        {
+          "letter": "C",
+          "text": "Burndown chart"
+        },
+        {
+          "letter": "D",
+          "text": "Release plan"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. What does the acronym MVP stand for in Agile projects?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most Valuable Professional"
+        },
+        {
+          "letter": "B",
+          "text": "Minimum Viable Product"
+        },
+        {
+          "letter": "C",
+          "text": "Maximum Velocity Process"
+        },
+        {
+          "letter": "D",
+          "text": "Modular Version Plan"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. Which ceremony is held at the end of a sprint to inspect and adapt the process?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sprint planning"
+        },
+        {
+          "letter": "B",
+          "text": "Daily stand-up"
+        },
+        {
+          "letter": "C",
+          "text": "Sprint retrospective"
+        },
+        {
+          "letter": "D",
+          "text": "Backlog grooming"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. Which metric shows the remaining work versus remaining time in a sprint?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Velocity chart"
+        },
+        {
+          "letter": "B",
+          "text": "Gantt chart"
+        },
+        {
+          "letter": "C",
+          "text": "Sprint burndown"
+        },
+        {
+          "letter": "D",
+          "text": "Cumulative flow diagram"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "6. A risk with high probability and high impact should be:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ignored"
+        },
+        {
+          "letter": "B",
+          "text": "Accepted"
+        },
+        {
+          "letter": "C",
+          "text": "Mitigated or avoided"
+        },
+        {
+          "letter": "D",
+          "text": "Transferred to the client only"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. What is the primary purpose of a user story?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Track budget"
+        },
+        {
+          "letter": "B",
+          "text": "Describe a feature from an end-user perspective"
+        },
+        {
+          "letter": "C",
+          "text": "Assign blame for defects"
+        },
+        {
+          "letter": "D",
+          "text": "Replace contracts"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "8. Which of the following best defines the critical path?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Shortest path in the network diagram"
+        },
+        {
+          "letter": "B",
+          "text": "Sequence of tasks with zero float that determines project duration"
+        },
+        {
+          "letter": "C",
+          "text": "Path with the highest risk"
+        },
+        {
+          "letter": "D",
+          "text": "Path chosen for resource leveling"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. During sprint planning, who is responsible for committing to the sprint goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Product owner"
+        },
+        {
+          "letter": "B",
+          "text": "Scrum master"
+        },
+        {
+          "letter": "C",
+          "text": "Development team"
+        },
+        {
+          "letter": "D",
+          "text": "Project sponsor"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "10. Which document formally authorizes a project?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scope statement"
+        },
+        {
+          "letter": "B",
+          "text": "Project charter"
+        },
+        {
+          "letter": "C",
+          "text": "Work-breakdown structure"
+        },
+        {
+          "letter": "D",
+          "text": "Risk register"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "11. What does the INVEST acronym recommend for good user stories?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Integrated, Negotiable, Valuable, Estimable, Small, Testable"
+        },
+        {
+          "letter": "B",
+          "text": "Independent, Negotiable, Valuable, Estimable, Small, Testable"
+        },
+        {
+          "letter": "C",
+          "text": "Immediate, Negotiable, Verified, Estimable, Short, Traceable"
+        },
+        {
+          "letter": "D",
+          "text": "Independent, Notable, Verified, Estimable, Scheduled, Timely"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "12. Which chart visualizes the distribution of work across different workflow states?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PERT chart"
+        },
+        {
+          "letter": "B",
+          "text": "Gantt chart"
+        },
+        {
+          "letter": "C",
+          "text": "Cumulative flow diagram"
+        },
+        {
+          "letter": "D",
+          "text": "RACI matrix"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "13. If velocity drops mid-project, the project manager should first:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Blame the team"
+        },
+        {
+          "letter": "B",
+          "text": "Increase scope"
+        },
+        {
+          "letter": "C",
+          "text": "Investigate root causes and adjust plans"
+        },
+        {
+          "letter": "D",
+          "text": "Cancel the sprint"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "14. Which role is primarily responsible for maximizing product value?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scrum master"
+        },
+        {
+          "letter": "B",
+          "text": "Development team"
+        },
+        {
+          "letter": "C",
+          "text": "Product owner"
+        },
+        {
+          "letter": "D",
+          "text": "Project manager"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "15. What is the ideal outcome of a well-run retrospective?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Longer sprint"
+        },
+        {
+          "letter": "B",
+          "text": "Actionable improvement items for next sprint"
+        },
+        {
+          "letter": "C",
+          "text": "Blame list"
+        },
+        {
+          "letter": "D",
+          "text": "Increased budget"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "16. Which of these is NOT one of the three pillars of Scrum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transparency"
+        },
+        {
+          "letter": "B",
+          "text": "Inspection"
+        },
+        {
+          "letter": "C",
+          "text": "Integration"
+        },
+        {
+          "letter": "D",
+          "text": "Adaptation"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "17. A Kanban board’s WIP limit is best used to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increase multitasking"
+        },
+        {
+          "letter": "B",
+          "text": "Highlight bottlenecks and encourage flow"
+        },
+        {
+          "letter": "C",
+          "text": "Track budget"
+        },
+        {
+          "letter": "D",
+          "text": "Replace daily stand-ups"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "18. Which file typically contains the detailed project scope, deliverables, and acceptance criteria?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RACI chart"
+        },
+        {
+          "letter": "B",
+          "text": "Scope management plan"
+        },
+        {
+          "letter": "C",
+          "text": "Project scope statement"
+        },
+        {
+          "letter": "D",
+          "text": "Communications plan"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "19. The primary measure of progress in Agile is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Number of meetings held"
+        },
+        {
+          "letter": "B",
+          "text": "Working software (or product)"
+        },
+        {
+          "letter": "C",
+          "text": "Lines of code written"
+        },
+        {
+          "letter": "D",
+          "text": "Budget spent"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "20. What is the first step when a critical blocker is identified during a sprint?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wait until the retrospective"
+        },
+        {
+          "letter": "B",
+          "text": "Communicate it immediately to the team and stakeholders"
+        },
+        {
+          "letter": "C",
+          "text": "Add more features"
+        },
+        {
+          "letter": "D",
+          "text": "Extend the sprint length"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

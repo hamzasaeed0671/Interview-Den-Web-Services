@@ -1,0 +1,44 @@
+Remote Fullstack Developer - 17853
+Turing  Pakistan
+
+
+Join a pioneering U.S.-based client as a Full-Stack Engineer, where you'll be at the forefront of developing AI-powered applications for both commercial and research-driven projects. This role is perfect for forward-thinking engineers who enjoy solving complex challenges, optimizing performance, and working alongside AI specialists to push the boundaries of innovation. You will be instrumental in crafting intelligent, data-driven solutions that redefine the way businesses and research institutions leverage technology.
+
+
+
+Key Responsibilities:
+
+Design and develop full-stack applications utilizing Python, JavaScript, and TypeScript.
+Architect scalable and efficient systems to support AI-driven functionalities.
+Work closely with AI researchers and data scientists to integrate machine learning models into applications.
+Debug, document, and enhance software solutions to ensure optimal user experience.
+Collaborate with cross-functional teams to transform business needs into technical solutions.
+
+
+Requirements:
+
+Open to applicants of all levels, from junior to industry experts
+Bachelor’s or Master’s degree in Computer Science, Engineering, or a related field.
+Proficiency in Python, JavaScript, and TypeScript for backend and frontend development.
+Strong analytical skills and ability to troubleshoot complex software issues.
+
+
+Why Join Us?
+
+Work with top global experts and expand your professional network.
+This is a contractual remote work opportunity without traditional job constraints.
+Competitive salary aligned with international standards.
+Contribute to cutting-edge AI projects shaping the future of technology.
+
+
+Note: Shortlisted candidates may be required to complete a coding assessment as part of the selection process.
+
+
+Seniority level
+Entry level
+Employment type
+Contract
+Job function
+Engineering and Information Technology
+Industries
+Software Development

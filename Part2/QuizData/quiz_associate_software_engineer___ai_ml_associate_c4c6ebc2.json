@@ -1,0 +1,377 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_c4c6ebc2",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data for modeling; collaborate on optimizing ML models; participate in training and fine-tuning models; conduct research on AI/ML techniques; document development; provide AI/ML-driven solutions; assist in deployment pipelines and implementation of ML models",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Problem-solving",
+        "Team collaboration",
+        "Continuous learning"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "In scikit-learn, which preprocessing utility is most appropriate for converting a categorical column with unordered categories into a numeric array for a tree-based model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LabelEncoder"
+        },
+        {
+          "letter": "B",
+          "text": "OneHotEncoder"
+        },
+        {
+          "letter": "C",
+          "text": "OrdinalEncoder"
+        },
+        {
+          "letter": "D",
+          "text": "StandardScaler"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. You create a DataFrame with 100k rows and call drop_duplicates(). What is the most memory-efficient way to perform this operation in-place?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "df = df.drop_duplicates()"
+        },
+        {
+          "letter": "B",
+          "text": "df.drop_duplicates(inplace=True)"
+        },
+        {
+          "letter": "C",
+          "text": "df.drop_duplicates()"
+        },
+        {
+          "letter": "D",
+          "text": "df = df.copy().drop_duplicates()"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. Which Keras API sequence correctly adds a 64-unit dense layer with ReLU followed by a 10-unit softmax layer to a Sequential model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "model.add(Dense(64, activation='relu')); model.add(Dense(10, activation='softmax'))"
+        },
+        {
+          "letter": "B",
+          "text": "model.add(Dense(64)); model.add(ReLU); model.add(Dense(10, activation='softmax'))"
+        },
+        {
+          "letter": "C",
+          "text": "model.add(Dense(64, activation=relu)); model.add(Dense(10))"
+        },
+        {
+          "letter": "D",
+          "text": "model.add(Dense(64, 'relu')); model.add(Dense(10, 'softmax'))"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "4. In TensorFlow 2.x, which callback allows automatic saving of the model with the best validation loss during training?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TensorBoard"
+        },
+        {
+          "letter": "B",
+          "text": "EarlyStopping"
+        },
+        {
+          "letter": "C",
+          "text": "ModelCheckpoint"
+        },
+        {
+          "letter": "D",
+          "text": "ReduceLROnPlateau"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. When fine-tuning a PyTorch model on a small dataset, which technique is commonly used to keep pretrained low-level features intact while allowing higher layers to adapt?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Freeze all layers except the final classifier layer"
+        },
+        {
+          "letter": "B",
+          "text": "Unfreeze all layers and train with a very high learning rate"
+        },
+        {
+          "letter": "C",
+          "text": "Use torch.no_grad() during forward pass"
+        },
+        {
+          "letter": "D",
+          "text": "Convert the model to eval() mode permanently"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "6. Which SQL clause is required whenever you use an aggregate function like COUNT() alongside non-aggregated columns?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HAVING"
+        },
+        {
+          "letter": "B",
+          "text": "GROUP BY"
+        },
+        {
+          "letter": "C",
+          "text": "ORDER BY"
+        },
+        {
+          "letter": "D",
+          "text": "WHERE"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "7. A git command sequence that correctly pushes a new local branch named feat to the remote and sets upstream is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git push –set-upstream origin feat"
+        },
+        {
+          "letter": "B",
+          "text": "git push origin feat –upstream"
+        },
+        {
+          "letter": "C",
+          "text": "git branch –set-upstream origin feat"
+        },
+        {
+          "letter": "D",
+          "text": "git push -u origin feat"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "8. In scikit-learn, which parameter controls the maximum depth of a DecisionTreeClassifier to reduce over-fitting?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "min_samples_split"
+        },
+        {
+          "letter": "B",
+          "text": "max_depth"
+        },
+        {
+          "letter": "C",
+          "text": "criterion"
+        },
+        {
+          "letter": "D",
+          "text": "max_features"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. You observe exploding gradients in a deep RNN written in Keras. Which simple weight-constraint technique can you apply inside the layer definition to mitigate this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kernel_regularizer=l2(0.01)"
+        },
+        {
+          "letter": "B",
+          "text": "kernel_constraint=max_norm(1.)"
+        },
+        {
+          "letter": "C",
+          "text": "dropout=0.2"
+        },
+        {
+          "letter": "D",
+          "text": "recurrent_dropout=0.2"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. To convert a PyTorch tensor to a NumPy array without copying memory, you should:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tensor.numpy()"
+        },
+        {
+          "letter": "B",
+          "text": "tensor.detach().numpy()"
+        },
+        {
+          "letter": "C",
+          "text": "tensor.cpu().numpy()"
+        },
+        {
+          "letter": "D",
+          "text": "np.array(tensor)"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "11. When joining two pandas DataFrames on columns that contain NaNs, which join type guarantees that no NaN keys are matched?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "inner"
+        },
+        {
+          "letter": "B",
+          "text": "left"
+        },
+        {
+          "letter": "C",
+          "text": "outer"
+        },
+        {
+          "letter": "D",
+          "text": "NaNs are always matched regardless of join type"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. Which TensorFlow function is the recommended entry point to load image data stored in subdirectories as a labeled dataset for training?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tf.data.Dataset.from_tensor_slices"
+        },
+        {
+          "letter": "B",
+          "text": "tf.keras.preprocessing.image_dataset_from_directory"
+        },
+        {
+          "letter": "C",
+          "text": "tf.keras.utils.get_file"
+        },
+        {
+          "letter": "D",
+          "text": "tf.io.read_file"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. In scikit-learn pipelines, which estimator is specifically designed to pass through columns unchanged while allowing others to be transformed?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ColumnTransformer"
+        },
+        {
+          "letter": "B",
+          "text": "FeatureUnion"
+        },
+        {
+          "letter": "C",
+          "text": "Pipeline"
+        },
+        {
+          "letter": "D",
+          "text": "make_column_selector"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "14. To enable gradient accumulation across 4 mini-batches in PyTorch, you should:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multiply loss by 4 before backward()"
+        },
+        {
+          "letter": "B",
+          "text": "Call optimizer.zero_grad() every 4th step only"
+        },
+        {
+          "letter": "C",
+          "text": "Scale the learning rate by 0.25"
+        },
+        {
+          "letter": "D",
+          "text": "Set model.eval() every 4th step"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "15. Which Git command safely moves your latest commit back to the staging area without changing the project files?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git reset --hard HEAD~1"
+        },
+        {
+          "letter": "B",
+          "text": "git revert HEAD"
+        },
+        {
+          "letter": "C",
+          "text": "git reset --soft HEAD~1"
+        },
+        {
+          "letter": "D",
+          "text": "git checkout HEAD~1"
+        }
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}

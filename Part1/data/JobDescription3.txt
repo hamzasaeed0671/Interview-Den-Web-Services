@@ -1,0 +1,41 @@
+Fullstack Developer (Onsite, Lahore, PKR Salary)
+HR POD Careers  Lahore, Punjab, Pakistan
+
+Requirements:
+
+3+ years of professional experience with fullstack Web development using AngularJS, Angular 19, ASP.NET, and .NET Core.
+Experience developing and maintaining scalable web applications and RESTful APIs.
+Strong understanding of MVC frameworks.
+Proficiency with database technologies (SQL Server or similar).
+Strong understanding of software architecture and design patterns.
+Familiarity with responsive and cross-platform development practices.
+Excellent communication and collaboration skills.
+Commitment to quality, performance optimization, and code maintainability.
+Understanding of how message brokers work.
+Understanding of cloud-based services, preferably Azure.
+Prior experience in Fintech technologies.
+
+
+Responsibilities:
+
+Develop, test, and maintain scalable fullstack web applications using AngularJS, Angular 19, ASP.NET, and .NET Core.
+Design and implement RESTful APIs, ensuring high performance, scalability, and security.
+Apply MVC frameworks and design patterns to deliver robust and maintainable software solutions.
+Work with SQL Server (or similar) to design, develop, and maintain efficient database structures and queries.
+Ensure responsive and cross-platform compatibility across web applications.
+Collaborate with cross-functional teams, including designers, product managers, and other developer,s to deliver high-quality solutions.
+Optimize application performance, ensuring code quality and adherence to best practices.
+Integrate cloud-based services, preferably using Microsoft Azure.
+Utilize message broker systems to ensure reliable and efficient communication between services.
+Maintain clear documentation and participate in code reviews to ensure maintainability and scalability.
+Leverage experience in Fintech technologies to contribute to the design and development of secure financial applications.
+Communicate effectively with stakeholders to understand requirements and deliver solutions aligned with business goals.
+
+Seniority level
+Not Applicable
+Employment type
+Full-time
+Job function
+Engineering and Information Technology
+Industries
+Business Consulting and Services

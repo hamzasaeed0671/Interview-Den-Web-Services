@@ -1,0 +1,377 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_f79d68e6",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in the training and fine-tuning of models to improve accuracy and efficiency; conduct research on emerging AI/ML techniques and contribute to proof-of-concept development; document model development, research, and performance metrics for future reference and learning; collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient; assist in the development and implementation of machine learning models for various business applications",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Strong problem-solving skills",
+        "Ability to work effectively in a team environment",
+        "Willingness to continuously learn"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "In scikit-learn, which preprocessing utility converts all features to zero mean and unit variance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "StandardScaler"
+        },
+        {
+          "letter": "B",
+          "text": "MinMaxScaler"
+        },
+        {
+          "letter": "C",
+          "text": "RobustScaler"
+        },
+        {
+          "letter": "D",
+          "text": "Normalizer"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "2. Which Keras callback automatically stops training early if validation loss stops improving?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ModelCheckpoint"
+        },
+        {
+          "letter": "B",
+          "text": "ReduceLROnPlateau"
+        },
+        {
+          "letter": "C",
+          "text": "EarlyStopping"
+        },
+        {
+          "letter": "D",
+          "text": "CSVLogger"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "3. In PyTorch, which dataset-splitting function is recommended for a quick 80-20 train/validation split?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "torch.utils.data.random_split"
+        },
+        {
+          "letter": "B",
+          "text": "torch.split"
+        },
+        {
+          "letter": "C",
+          "text": "torch.chunk"
+        },
+        {
+          "letter": "D",
+          "text": "torch.utils.data.SubsetRandomSampler"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "4. You want to merge two pandas DataFrames on a shared customer_id column. Which SQL-equivalent operation should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "df1.join(df2)"
+        },
+        {
+          "letter": "B",
+          "text": "pd.merge(df1, df2, on='customer_id')"
+        },
+        {
+          "letter": "C",
+          "text": "df1.concat(df2)"
+        },
+        {
+          "letter": "D",
+          "text": "df1.append(df2)"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. A TensorFlow model file saved in the SavedModel format contains a saved_model.pb file and which subdirectory?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "checkpoints/"
+        },
+        {
+          "letter": "B",
+          "text": "variables/"
+        },
+        {
+          "letter": "C",
+          "text": "assets/"
+        },
+        {
+          "letter": "D",
+          "text": "frozen/"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "6. Which Git command safely integrates remote main-branch updates into your local feature branch while preserving your commits?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git pull --rebase origin main"
+        },
+        {
+          "letter": "B",
+          "text": "git merge origin/main"
+        },
+        {
+          "letter": "C",
+          "text": "git fetch && git reset --hard origin/main"
+        },
+        {
+          "letter": "D",
+          "text": "git cherry-pick origin/main"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "7. In Keras, adding kernel_regularizer=regularizers.l2(0.01) to a Dense layer helps mitigate which problem?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vanishing gradients"
+        },
+        {
+          "letter": "B",
+          "text": "Over-fitting"
+        },
+        {
+          "letter": "C",
+          "text": "Under-fitting"
+        },
+        {
+          "letter": "D",
+          "text": "Exploding gradients"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "8. Which scikit-learn estimator is best suited for a quick baseline classification model on tabular data?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LinearRegression"
+        },
+        {
+          "letter": "B",
+          "text": "LogisticRegression"
+        },
+        {
+          "letter": "C",
+          "text": "KMeans"
+        },
+        {
+          "letter": "D",
+          "text": "PCA"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. In PyTorch, which loss function is appropriate for multi-class classification with integer targets?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "torch.nn.MSELoss"
+        },
+        {
+          "letter": "B",
+          "text": "torch.nn.CrossEntropyLoss"
+        },
+        {
+          "letter": "C",
+          "text": "torch.nn.BCELoss"
+        },
+        {
+          "letter": "D",
+          "text": "torch.nn.L1Loss"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. To convert a categorical text column with 5 unique values into numeric input for a neural network, which scikit-learn transformer should you apply first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LabelEncoder followed by OneHotEncoder"
+        },
+        {
+          "letter": "B",
+          "text": "CountVectorizer"
+        },
+        {
+          "letter": "C",
+          "text": "TfidfVectorizer"
+        },
+        {
+          "letter": "D",
+          "text": "HashingVectorizer"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "11. When training a TensorFlow model, which argument in model.fit controls the number of samples processed before the internal weights are updated?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "epochs"
+        },
+        {
+          "letter": "B",
+          "text": "batch_size"
+        },
+        {
+          "letter": "C",
+          "text": "steps_per_epoch"
+        },
+        {
+          "letter": "D",
+          "text": "validation_split"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "12. Which SQL clause is used to eliminate duplicate rows from a result set?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LIMIT"
+        },
+        {
+          "letter": "B",
+          "text": "DISTINCT"
+        },
+        {
+          "letter": "C",
+          "text": "GROUP BY"
+        },
+        {
+          "letter": "D",
+          "text": "ORDER BY"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. In a pandas DataFrame, how do you select rows where the column age is greater than 30?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "df['age'] > 30"
+        },
+        {
+          "letter": "B",
+          "text": "df[df.age > 30]"
+        },
+        {
+          "letter": "C",
+          "text": "df.filter(age > 30)"
+        },
+        {
+          "letter": "D",
+          "text": "df.select(lambda x: x.age > 30)"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. Which TensorFlow module provides off-the-shelf image augmentation layers such as RandomFlip and RandomRotation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tf.image"
+        },
+        {
+          "letter": "B",
+          "text": "tf.keras.layers.experimental.preprocessing"
+        },
+        {
+          "letter": "C",
+          "text": "tf.data"
+        },
+        {
+          "letter": "D",
+          "text": "tf.estimator"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "15. You need to freeze lower layers of a pre-trained Keras model before fine-tuning. Which attribute of each layer should you set to False?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "frozen"
+        },
+        {
+          "letter": "B",
+          "text": "trainable"
+        },
+        {
+          "letter": "C",
+          "text": "learning"
+        },
+        {
+          "letter": "D",
+          "text": "update"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

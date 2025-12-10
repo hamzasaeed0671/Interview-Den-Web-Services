@@ -1,0 +1,42 @@
+
+Associate Software Engineer - AI/ML
+
+Devsinc is looking for passionate Associate Software Engineers - AIML to join its team.
+
+Requirements:
+
+Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling
+Collaborate with senior engineers to optimize machine learning models for performance and scalability
+Participate in the training and fine-tuning of models to improve accuracy and efficiency
+Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development
+Document model development, research, and performance metrics for future reference and learning
+Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions
+Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient
+Assist in the development and implementation of machine learning models for various business applications
+Strong understanding of machine learning algorithms such as regression, classification, clustering, and deep learning techniques
+Familiarity with Python and libraries like TensorFlow, Keras, PyTorch, or scikit-learn
+Basic knowledge of data preprocessing, data manipulation, and feature engineering
+Understanding of statistics and its application in machine learning (probability distributions, hypothesis testing, etc.)
+Familiarity with linear algebra and calculus for understanding ML models
+Knowledge of SQL for data querying and experience with handling large datasets
+Familiarity with version control using Git
+Strong problem-solving skills and a keen interest in developing AI-driven solutions
+Ability to work effectively in a team environment and collaborate with cross-functional teams
+Willingness to continuously learn and stay updated with the latest trends and advancements in AI/ML technologies
+
+
+Qualification:
+
+Bachelor's degree in Computer Science, Engineering, Data Science, or any related field
+A strong foundation in mathematics, statistics, and computer science
+Understanding of machine learning concepts and algorithms is preferred but not required
+Exposure to AI/ML through academic projects, internships, or online courses is a plus
+
+Seniority level
+Associate
+Employment type
+Full-time
+Job function
+Engineering
+Industries
+IT Services and IT Consulting

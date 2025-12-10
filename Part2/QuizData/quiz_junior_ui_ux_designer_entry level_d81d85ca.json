@@ -1,0 +1,142 @@
+{
+  "quiz_id": "quiz_junior_ui_ux_designer_entry level_d81d85ca",
+  "job_info": {
+    "job_title": "Junior UI/UX Designer",
+    "role_description": "We are looking for a creative and empathetic Junior UI/UX Designer to join our product design team. In this role, you will work closely with senior designers, product managers, and developers to build intuitive and visually appealing digital experiences.\n\nAs an entry-level designer, you aren't expected to know everything on day one. We are looking for someone with a strong foundation in design principles, a passion for solving user problems, and a hunger to learn. You will have the opportunity to grow your skills in user research, wireframing, prototyping, and high-fidelity UI design under the mentorship of experienced professionals.",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Entry Level"
+    },
+    "skills_required": {
+      "technical_skills": [],
+      "soft_skills": [
+        "Portfolio: A portfolio demonstrating your design process (case studies) is required. We want to see how you solve problems, not just final pretty screens.",
+        "Soft Skills: Strong communication skills (written and verbal). You must be able to explain why you made a design decision."
+      ]
+    },
+    "job_responsibilities": [
+      "User-Centered Design: Assist in the creation of user flows, wireframes, and high-fidelity prototypes for web and mobile applications using tools like [Figma/Adobe XD].",
+      "Visual Design (UI): Design beautiful, consistent interfaces that align with our brand identity. This includes selecting typography, color palettes, and creating UI components (buttons, icons, etc.).",
+      "Collaboration: Work alongside developers to ensure designs are implemented accurately and collaborate with Product Managers to understand business requirements.",
+      "User Research Support: Assist the team in conducting user research, including surveys, interviews, and usability testing to gather feedback on designs.",
+      "Design System Maintenance: Help maintain and update our internal design system to ensure consistency across all products.",
+      "Iterative Improvement: Actively participate in design reviews (critiques) and iterate on your work based on feedback from the team and users."
+    ]
+  },
+  "metadata": {
+    "question_count": 5,
+    "level": "Entry Level"
+  },
+  "questions": [
+    {
+      "question": "In Figma, you create a master button component with three property toggles: “icon-left”, “icon-right”, and “disabled”. You then design two instances and toggle only “icon-left” on the first one and “disabled” on the second one. If you later change the master component’s corner radius from 4 px to 8 px, what will happen to the two instances?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only the first instance updates because it has a unique override."
+        },
+        {
+          "letter": "B",
+          "text": "Only the second instance updates because it has a unique override."
+        },
+        {
+          "letter": "C",
+          "text": "Both instances update to 8 px while preserving their individual property toggles."
+        },
+        {
+          "letter": "D",
+          "text": "Both instances reset to the master state and lose their toggles."
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "2. During a moderated usability test, a participant repeatedly hesitates at the same checkout step but never verbally complains. Which single usability heuristic is MOST directly challenged by this observation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flexibility and efficiency of use"
+        },
+        {
+          "letter": "B",
+          "text": "Error prevention"
+        },
+        {
+          "letter": "C",
+          "text": "Recognition rather than recall"
+        },
+        {
+          "letter": "D",
+          "text": "Help users recognize, diagnose, and recover from errors"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "3. You are building a small design system in Adobe XD. The brand color is #2B6CB2 (RGB 43, 108, 178). To ensure WCAG 2.1 AA compliance on a white background (#FFFFFF), what is the MINIMUM acceptable foreground color opacity you can apply to large text (18 pt bold) before it drops below the required contrast ratio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "45 %"
+        },
+        {
+          "letter": "B",
+          "text": "55 %"
+        },
+        {
+          "letter": "C",
+          "text": "65 %"
+        },
+        {
+          "letter": "D",
+          "text": "75 %"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. A developer asks you to export a 24 × 24 px icon from Figma for both iOS and Android. Which export preset pair will give the sharpest results on modern devices without manual resizing?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SVG + PDF"
+        },
+        {
+          "letter": "B",
+          "text": "PNG @1× and PNG @2×"
+        },
+        {
+          "letter": "C",
+          "text": "PNG @1× and PNG @3×"
+        },
+        {
+          "letter": "D",
+          "text": "SVG + PNG @4×"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "5. While updating the company design system, you rename a Figma component from “Button/Primary” to “Core/Button—Primary” and move it to a new file. Which organizational benefit does this change MOST directly support?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Faster prototype sharing via public links"
+        },
+        {
+          "letter": "B",
+          "text": "Automatic color-token generation for developers"
+        },
+        {
+          "letter": "C",
+          "text": "Clearer component hierarchy for designers using asset panels"
+        },
+        {
+          "letter": "D",
+          "text": "Reduced file size when exporting to Zeplin"
+        }
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}

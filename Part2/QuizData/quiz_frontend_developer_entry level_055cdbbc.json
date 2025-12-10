@@ -1,0 +1,479 @@
+{
+  "quiz_id": "quiz_frontend_developer_entry level_055cdbbc",
+  "job_info": {
+    "job_title": "Frontend Developer",
+    "role_description": "About the Role\n\nWe are looking for a skilled Frontend Developer to join our team and help build intuitive, performant, and visually appealing web applications. You will work closely with designers, backend developers, and product managers to deliver seamless user experiences that align with business goals.",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Entry Level"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Frontend",
+        "Javascript",
+        "React",
+        "Typescript"
+      ],
+      "soft_skills": [
+        "Good problem-solving, debugging, and communication skills.",
+        "Good problem-solving, debugging, and communication skills.                                                                                       Preferred / Plus Points"
+      ]
+    },
+    "job_responsibilities": [
+      "Key Responsibilities",
+      "Develop responsive, accessible, and user-friendly interfaces using modern frontend frameworks (React, Next.js, Vue, etc.).",
+      "Integrate APIs and backend services to deliver dynamic web experiences.",
+      "Collaborate with UI/UX designers to translate designs into functional components.",
+      "Optimize web applications for speed, scalability, and cross-browser compatibility.",
+      "Participate in code reviews, version control (Git), and agile development practices.",
+      "Debug, test, and maintain code to ensure high quality and reliability.",
+      "Stay updated with the latest frontend trends, libraries, and best practices."
+    ]
+  },
+  "metadata": {
+    "question_count": 20,
+    "level": "Entry Level"
+  },
+  "questions": [
+    {
+      "question": "Which HTML tag is the most semantic choice for a self-contained piece of reusable UI (e.g., a card or widget) in modern markup?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`<div>`"
+        },
+        {
+          "letter": "B",
+          "text": "`<section>`"
+        },
+        {
+          "letter": "C",
+          "text": "`<article>`"
+        },
+        {
+          "letter": "D",
+          "text": "`<component>`"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "2. In CSS, which property directly controls the stacking order of positioned elements?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "z-index"
+        },
+        {
+          "letter": "B",
+          "text": "order"
+        },
+        {
+          "letter": "C",
+          "text": "position-z"
+        },
+        {
+          "letter": "D",
+          "text": "stack-level"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "3. Which JavaScript method creates a new array containing only elements that pass a test implemented by the provided function?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "map()"
+        },
+        {
+          "letter": "B",
+          "text": "filter()"
+        },
+        {
+          "letter": "C",
+          "text": "forEach()"
+        },
+        {
+          "letter": "D",
+          "text": "reduce()"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. What is the correct way to bind a React class component’s method so that `this` refers to the component instance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`this.handleClick = handleClick;`"
+        },
+        {
+          "letter": "B",
+          "text": "`handleClick = () => { ... };`"
+        },
+        {
+          "letter": "C",
+          "text": "`this.handleClick = this.handleClick.bind(this);`"
+        },
+        {
+          "letter": "D",
+          "text": "`bind(handleClick, this);`"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. Which TypeScript type would you use to describe an object whose keys are strings and whose values are exclusively booleans?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`object<boolean>`"
+        },
+        {
+          "letter": "B",
+          "text": "`{ [key: string]: boolean }`"
+        },
+        {
+          "letter": "C",
+          "text": "`Map<string, boolean>`"
+        },
+        {
+          "letter": "D",
+          "text": "`Record<boolean, string>`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "6. Which HTTP status code indicates that a requested resource was not found?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "200"
+        },
+        {
+          "letter": "B",
+          "text": "301"
+        },
+        {
+          "letter": "C",
+          "text": "404"
+        },
+        {
+          "letter": "D",
+          "text": "500"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. In React, which hook is used to perform side effects (e.g., fetching data) after render?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "useState"
+        },
+        {
+          "letter": "B",
+          "text": "useEffect"
+        },
+        {
+          "letter": "C",
+          "text": "useContext"
+        },
+        {
+          "letter": "D",
+          "text": "useReducer"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "8. Which CSS rule set will horizontally center a block-level element of unknown width inside its parent?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`margin: 0 center;`"
+        },
+        {
+          "letter": "B",
+          "text": "`margin: 0 auto;`"
+        },
+        {
+          "letter": "C",
+          "text": "`align: center;`"
+        },
+        {
+          "letter": "D",
+          "text": "`position: center;`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. Which of the following is the default port for a local development server serving HTTPS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "80"
+        },
+        {
+          "letter": "B",
+          "text": "443"
+        },
+        {
+          "letter": "C",
+          "text": "3000"
+        },
+        {
+          "letter": "D",
+          "text": "8080"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. What does the following expression evaluate to in JavaScript? `\"5\" + 2`",
+      "options": [
+        {
+          "letter": "A",
+          "text": "7"
+        },
+        {
+          "letter": "B",
+          "text": "\"52\""
+        },
+        {
+          "letter": "C",
+          "text": "52"
+        },
+        {
+          "letter": "D",
+          "text": "NaN"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "11. Which command stages all modified tracked files in Git?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`git add --all`"
+        },
+        {
+          "letter": "B",
+          "text": "`git commit -a`"
+        },
+        {
+          "letter": "C",
+          "text": "`git push`"
+        },
+        {
+          "letter": "D",
+          "text": "`git stage *`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. Which HTML attribute improves accessibility by providing a text alternative for screen readers when an image fails to load?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "title"
+        },
+        {
+          "letter": "B",
+          "text": "alt"
+        },
+        {
+          "letter": "C",
+          "text": "aria-label"
+        },
+        {
+          "letter": "D",
+          "text": "placeholder"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. In TypeScript, which compiler option enforces strict null checks so that `null` and `undefined` are not assignable to every type?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "noImplicitAny"
+        },
+        {
+          "letter": "B",
+          "text": "strictNullChecks"
+        },
+        {
+          "letter": "C",
+          "text": "strict"
+        },
+        {
+          "letter": "D",
+          "text": "suppressImplicitAnyIndexErrors"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. Which package manager ships by default with current Node.js LTS installations?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yarn"
+        },
+        {
+          "letter": "B",
+          "text": "pnpm"
+        },
+        {
+          "letter": "C",
+          "text": "npm"
+        },
+        {
+          "letter": "D",
+          "text": "bower"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "15. What is the correct way to import a named export called `useState` from React in ES modules?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`import useState from 'react';`"
+        },
+        {
+          "letter": "B",
+          "text": "`import { useState } from 'react';`"
+        },
+        {
+          "letter": "C",
+          "text": "`import React.useState from 'react';`"
+        },
+        {
+          "letter": "D",
+          "text": "`const useState = require('react').useState;`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "16. Which CSS feature lets you scope styles to a specific component without global side effects?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flexbox"
+        },
+        {
+          "letter": "B",
+          "text": "CSS Modules"
+        },
+        {
+          "letter": "C",
+          "text": "rem units"
+        },
+        {
+          "letter": "D",
+          "text": "!important"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "17. Which method would you use to make an HTTP GET request in modern browsers without third-party libraries?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`$.get()`"
+        },
+        {
+          "letter": "B",
+          "text": "`fetch()`"
+        },
+        {
+          "letter": "C",
+          "text": "`XMLHttpRequest.send()`"
+        },
+        {
+          "letter": "D",
+          "text": "`axios.get()`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "18. In React, what value should a component return to indicate that it should render nothing?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0"
+        },
+        {
+          "letter": "B",
+          "text": "false"
+        },
+        {
+          "letter": "C",
+          "text": "null"
+        },
+        {
+          "letter": "D",
+          "text": "undefined"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "19. Which accessibility guideline recommends maintaining a minimum color contrast ratio of 4.5:1 for normal text?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ARIA"
+        },
+        {
+          "letter": "B",
+          "text": "WCAG"
+        },
+        {
+          "letter": "C",
+          "text": "Section 508"
+        },
+        {
+          "letter": "D",
+          "text": "ADA"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "20. Which lifecycle method (or hook equivalent) runs immediately before a React component unmounts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "componentWillUnmount / useEffect cleanup"
+        },
+        {
+          "letter": "B",
+          "text": "componentDidUnmount"
+        },
+        {
+          "letter": "C",
+          "text": "useLayoutEffect"
+        },
+        {
+          "letter": "D",
+          "text": "shouldComponentUpdate"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

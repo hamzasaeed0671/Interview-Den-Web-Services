@@ -1,0 +1,377 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_9baa8680",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in the training and fine-tuning of models to improve accuracy and efficiency; conduct research on emerging AI/ML techniques and contribute to proof-of-concept development; document model development, research, and performance metrics for future reference and learning; collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient; assist in the development and implementation of machine learning models for various business applications",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Strong problem-solving skills",
+        "Ability to work effectively in a team environment",
+        "Willingness to continuously learn"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "Which preprocessing step is most effective for removing the influence of feature scale when training a scikit-learn model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Label encoding"
+        },
+        {
+          "letter": "B",
+          "text": "StandardScaler"
+        },
+        {
+          "letter": "C",
+          "text": "One-hot encoding"
+        },
+        {
+          "letter": "D",
+          "text": "PCA"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. In TensorFlow/Keras, which callback is the simplest way to stop training early if validation loss stops improving?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ModelCheckpoint"
+        },
+        {
+          "letter": "B",
+          "text": "ReduceLROnPlateau"
+        },
+        {
+          "letter": "C",
+          "text": "EarlyStopping"
+        },
+        {
+          "letter": "D",
+          "text": "TensorBoard"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "3. A DataFrame column contains the values [2, 4, 6, 8, 10]. After applying df['col'].diff(), what will the first non-NaN value be?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. Which PyTorch loss function is appropriate for a multi-class classification problem with integer targets?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BCELoss"
+        },
+        {
+          "letter": "B",
+          "text": "MSELoss"
+        },
+        {
+          "letter": "C",
+          "text": "CrossEntropyLoss"
+        },
+        {
+          "letter": "D",
+          "text": "SmoothL1Loss"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. You need to version a 200 MB pickled model file with Git. Which is the recommended approach?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add the file directly to the repo"
+        },
+        {
+          "letter": "B",
+          "text": "Use Git LFS"
+        },
+        {
+          "letter": "C",
+          "text": "Store in a Git submodule"
+        },
+        {
+          "letter": "D",
+          "text": "Compress to zip and commit"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "6. In SQL, which clause is the most efficient way to keep only the latest record per user when a timestamp column exists?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GROUP BY user_id"
+        },
+        {
+          "letter": "B",
+          "text": "DISTINCT user_id"
+        },
+        {
+          "letter": "C",
+          "text": "ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY ts DESC)"
+        },
+        {
+          "letter": "D",
+          "text": "LIMIT 1"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. A Keras model has a Dense(1, activation='sigmoid') output layer. Which loss should you choose for binary classification?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "categorical_crossentropy"
+        },
+        {
+          "letter": "B",
+          "text": "sparse_categorical_crossentropy"
+        },
+        {
+          "letter": "C",
+          "text": "binary_crossentropy"
+        },
+        {
+          "letter": "D",
+          "text": "mse"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "8. Which scikit-learn transformer is best suited to convert text data into TF-IDF features?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CountVectorizer"
+        },
+        {
+          "letter": "B",
+          "text": "TfidfVectorizer"
+        },
+        {
+          "letter": "C",
+          "text": "HashingVectorizer"
+        },
+        {
+          "letter": "D",
+          "text": "LabelEncoder"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. In PyTorch, calling .backward() on a scalar loss tensor performs which operation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Updates model parameters"
+        },
+        {
+          "letter": "B",
+          "text": "Computes gradients via autograd"
+        },
+        {
+          "letter": "C",
+          "text": "Zeroes the gradients"
+        },
+        {
+          "letter": "D",
+          "text": "Applies the optimizer step"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. You want to reduce 50 features to 10 while keeping most variance. Which scikit-learn class should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PCA(n_components=10)"
+        },
+        {
+          "letter": "B",
+          "text": "TruncatedSVD(n_components=10)"
+        },
+        {
+          "letter": "C",
+          "text": "SelectKBest(k=10)"
+        },
+        {
+          "letter": "D",
+          "text": "NMF(n_components=10)"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "11. Which Git command safely brings remote main branch updates into your local main without creating a merge commit?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git pull origin main"
+        },
+        {
+          "letter": "B",
+          "text": "git pull --rebase origin main"
+        },
+        {
+          "letter": "C",
+          "text": "git merge origin/main"
+        },
+        {
+          "letter": "D",
+          "text": "git fetch && git reset --hard origin/main"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "12. A categorical column has 5 levels but one level appears in training only and never in production. Which strategy prevents the model from failing during inference?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Drop the column"
+        },
+        {
+          "letter": "B",
+          "text": "One-hot encode with drop='first'"
+        },
+        {
+          "letter": "C",
+          "text": "Use one-hot encoding with handle_unknown='ignore'"
+        },
+        {
+          "letter": "D",
+          "text": "Label encode"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "13. When building a TensorFlow data pipeline, which method shuffles data across epochs while keeping memory usage low?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dataset.shuffle(buffer_size=1000)"
+        },
+        {
+          "letter": "B",
+          "text": "dataset.shuffle(buffer_size=len(dataset))"
+        },
+        {
+          "letter": "C",
+          "text": "dataset.batch(32)"
+        },
+        {
+          "letter": "D",
+          "text": "dataset.prefetch(tf.data.AUTOTUNE)"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "14. Which Python library function is the simplest way to split data into train/validation sets while preserving class proportions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sklearn.model_selection.train_test_split with stratify=y"
+        },
+        {
+          "letter": "B",
+          "text": "numpy.random.choice"
+        },
+        {
+          "letter": "C",
+          "text": "pandas.DataFrame.sample"
+        },
+        {
+          "letter": "D",
+          "text": "sklearn.model_selection.KFold"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "15. A model’s training accuracy is 99 % but validation accuracy is 54 %. Which single technique is most likely to reduce this gap?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increase layer size"
+        },
+        {
+          "letter": "B",
+          "text": "Add dropout"
+        },
+        {
+          "letter": "C",
+          "text": "Train for more epochs"
+        },
+        {
+          "letter": "D",
+          "text": "Lower learning rate"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

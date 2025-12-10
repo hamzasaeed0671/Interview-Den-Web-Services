@@ -1,0 +1,377 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_eb5ad5d2",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in the training and fine-tuning of models to improve accuracy and efficiency; conduct research on emerging AI/ML techniques and contribute to proof-of-concept development; document model development, research, and performance metrics for future reference and learning; collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient; assist in the development and implementation of machine learning models for various business applications",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Strong problem-solving skills",
+        "Ability to work effectively in a team environment",
+        "Willingness to continuously learn"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "In scikit-learn, which preprocessing class should you use to center features around zero and scale them to unit variance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MinMaxScaler"
+        },
+        {
+          "letter": "B",
+          "text": "StandardScaler"
+        },
+        {
+          "letter": "C",
+          "text": "RobustScaler"
+        },
+        {
+          "letter": "D",
+          "text": "Normalizer"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. Which TensorFlow 2.x callback is most commonly used to stop training early when validation loss stops improving?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ModelCheckpoint"
+        },
+        {
+          "letter": "B",
+          "text": "EarlyStopping"
+        },
+        {
+          "letter": "C",
+          "text": "ReduceLROnPlateau"
+        },
+        {
+          "letter": "D",
+          "text": "TensorBoard"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. In PyTorch, which loss function is appropriate for a multi-class classification problem with integer labels?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BCELoss"
+        },
+        {
+          "letter": "B",
+          "text": "CrossEntropyLoss"
+        },
+        {
+          "letter": "C",
+          "text": "MSELoss"
+        },
+        {
+          "letter": "D",
+          "text": "NLLLoss"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. What SQL clause is used to remove duplicate rows from the result set of a query?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DISTINCT"
+        },
+        {
+          "letter": "B",
+          "text": "UNIQUE"
+        },
+        {
+          "letter": "C",
+          "text": "GROUP BY"
+        },
+        {
+          "letter": "D",
+          "text": "LIMIT"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "5. Which Git command safely updates your local main branch with the latest changes from the remote repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git pull origin main"
+        },
+        {
+          "letter": "B",
+          "text": "git fetch origin main"
+        },
+        {
+          "letter": "C",
+          "text": "git merge origin/main"
+        },
+        {
+          "letter": "D",
+          "text": "git push origin main"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "6. In Keras, which layer type is best suited for sequence-to-sequence tasks where temporal order matters?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dense"
+        },
+        {
+          "letter": "B",
+          "text": "Conv1D"
+        },
+        {
+          "letter": "C",
+          "text": "LSTM"
+        },
+        {
+          "letter": "D",
+          "text": "Flatten"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. Which scikit-learn metric computes the proportion of correctly predicted samples in a classification task?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "precision_score"
+        },
+        {
+          "letter": "B",
+          "text": "recall_score"
+        },
+        {
+          "letter": "C",
+          "text": "f1_score"
+        },
+        {
+          "letter": "D",
+          "text": "accuracy_score"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "8. In pandas, which method fills missing values with the most recent non-null value?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fillna(method='bfill')"
+        },
+        {
+          "letter": "B",
+          "text": "fillna(method='ffill')"
+        },
+        {
+          "letter": "C",
+          "text": "dropna()"
+        },
+        {
+          "letter": "D",
+          "text": "interpolate()"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. Which regularization technique randomly disables neurons during training to reduce overfitting?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L1 regularization"
+        },
+        {
+          "letter": "B",
+          "text": "L2 regularization"
+        },
+        {
+          "letter": "C",
+          "text": "Dropout"
+        },
+        {
+          "letter": "D",
+          "text": "Batch normalization"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "10. When scaling a NumPy array to the range [0, 1], which formula is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(x – x.mean()) / x.std()"
+        },
+        {
+          "letter": "B",
+          "text": "(x – x.min()) / (x.max() – x.min())"
+        },
+        {
+          "letter": "C",
+          "text": "x / x.max()"
+        },
+        {
+          "letter": "D",
+          "text": "(x – x.median()) / x.ptp()"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "11. Which TensorFlow module provides off-the-shelf data augmentation layers like RandomFlip and RandomRotation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tf.image"
+        },
+        {
+          "letter": "B",
+          "text": "tf.keras.layers.experimental.preprocessing"
+        },
+        {
+          "letter": "C",
+          "text": "tf.data"
+        },
+        {
+          "letter": "D",
+          "text": "tf.keras.preprocessing"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "12. In scikit-learn, which parameter controls the maximum tree depth in DecisionTreeClassifier?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "max_features"
+        },
+        {
+          "letter": "B",
+          "text": "max_depth"
+        },
+        {
+          "letter": "C",
+          "text": "min_samples_split"
+        },
+        {
+          "letter": "D",
+          "text": "max_leaf_nodes"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. Which SQL keyword is used to combine the output of two queries with matching columns and remove duplicates?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "UNION"
+        },
+        {
+          "letter": "B",
+          "text": "UNION ALL"
+        },
+        {
+          "letter": "C",
+          "text": "JOIN"
+        },
+        {
+          "letter": "D",
+          "text": "INTERSECT"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "14. In PyTorch, which method moves a model from CPU to GPU memory?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "model.gpu()"
+        },
+        {
+          "letter": "B",
+          "text": "model.to('cuda')"
+        },
+        {
+          "letter": "C",
+          "text": "model.cuda()"
+        },
+        {
+          "letter": "D",
+          "text": "Both B and C"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "15. Which Git command undoes the last commit while keeping changes staged?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git reset --hard HEAD~1"
+        },
+        {
+          "letter": "B",
+          "text": "git reset --soft HEAD~1"
+        },
+        {
+          "letter": "C",
+          "text": "git revert HEAD"
+        },
+        {
+          "letter": "D",
+          "text": "git checkout HEAD~1"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

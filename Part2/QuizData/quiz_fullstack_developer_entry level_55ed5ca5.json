@@ -1,0 +1,134 @@
+{
+  "quiz_id": "quiz_fullstack_developer_entry level_55ed5ca5",
+  "job_info": {
+    "job_title": "Fullstack Developer",
+    "role_description": "Candidate should be proficient in theory of automata",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Entry Level"
+    },
+    "skills_required": {
+      "technical_skills": [],
+      "soft_skills": []
+    },
+    "job_responsibilities": [
+      "To teach theory of automata"
+    ]
+  },
+  "metadata": {
+    "question_count": 5,
+    "level": "Entry Level"
+  },
+  "questions": [
+    {
+      "question": "Which formal machine recognizes exactly the class of regular languages?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deterministic push-down automaton"
+        },
+        {
+          "letter": "B",
+          "text": "Deterministic finite automaton"
+        },
+        {
+          "letter": "C",
+          "text": "Linear-bounded automaton"
+        },
+        {
+          "letter": "D",
+          "text": "Turing machine"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. The smallest number of states needed for any DFA that recognizes the language {aⁿb | n ≥ 0} is",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "4"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "4. The Pumping Lemma for regular languages is primarily used to",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Minimize the number of DFA states"
+        },
+        {
+          "letter": "B",
+          "text": "Prove that a given language is not regular"
+        },
+        {
+          "letter": "C",
+          "text": "Convert an NFA to a DFA"
+        },
+        {
+          "letter": "D",
+          "text": "Construct a regular expression from a DFA"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. The transition function of a Turing machine maps to",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A single new state only"
+        },
+        {
+          "letter": "B",
+          "text": "A new state and a stack operation"
+        },
+        {
+          "letter": "C",
+          "text": "A new state, a symbol to write, and a head direction"
+        },
+        {
+          "letter": "D",
+          "text": "A new state and an epsilon move"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which of the following correctly describes the language recognized by the regular expression (a + b)*abb?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All strings over {a, b} that end with the substring “abb”"
+        },
+        {
+          "letter": "B",
+          "text": "All strings over {a, b} that contain at least one occurrence of “abb” anywhere"
+        },
+        {
+          "letter": "C",
+          "text": "All strings over {a, b} that start with “abb”"
+        },
+        {
+          "letter": "D",
+          "text": "All strings over {a, b} that contain exactly one occurrence of “abb”"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

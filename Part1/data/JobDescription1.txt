@@ -1,0 +1,52 @@
+Title
+
+Junior Front End Developer
+Translation Empire PK  Rawalpindi, Punjab, Pakistan
+
+Job Description
+
+Responsibilities:
+
+Design and develop the user interface of web applications using HTML, CSS, and JavaScript
+Collaborate with the development team to ensure that the user interface meets the specified requirements and quality standards
+Debug and resolve issues in the front-end code, including performance and usability issues
+Participate in code reviews and contribute to the development of new features and functionality
+Develop and maintain reusable UI components and libraries
+Participate in the development and maintenance of the application documentation
+Stay current with industry trends and developments in front-end development
+
+
+Requirements
+
+
+Requirements & Skills:
+
+Bachelor's degree in Computer Science, Software Engineering, or a related field
+Some experience in front-end development, with experience in HTML, CSS, and JavaScript
+Familiarity with front-end development frameworks and tools, including React, Angular, or Vue.js
+Basic understanding of responsive design principles and techniques
+Basic understanding of front-end build tools such as webpack, gulp, or grunt
+Basic understanding of front-end testing frameworks such as Jest or Cypress
+Strong attention to detail and analytical skills, with the ability to identify and resolve issues in the front-end code
+Excellent communication skills, with the ability to communicate effectively with development team members and stakeholders
+Ability to work independently and collaboratively as part of a team
+Strong problem-solving skills and ability to think creatively and strategically to identify solutions to complex problems
+
+
+Work mode:
+
+Work from Office.
+
+Shift Time:
+
+10am-7pm
+
+
+Seniority level
+Entry level
+Employment type
+Full-time
+Job function
+Engineering and Information Technology
+Industries
+IT Services and IT Consulting

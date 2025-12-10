@@ -1,0 +1,466 @@
+{
+  "quiz_id": "quiz_fullstack_developer_entry level_fda218b4",
+  "job_info": {
+    "job_title": "Fullstack Developer",
+    "role_description": "Candidate should be proficient in theory of automata",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Entry Level"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Frontend"
+      ],
+      "soft_skills": []
+    },
+    "job_responsibilities": [
+      "To teach theory of automata"
+    ]
+  },
+  "metadata": {
+    "question_count": 20,
+    "level": "Entry Level"
+  },
+  "questions": [
+    {
+      "question": "Which of the following best describes a Deterministic Finite Automaton (DFA)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A machine that can have multiple next states for a single input"
+        },
+        {
+          "letter": "B",
+          "text": "A machine that accepts only empty strings"
+        },
+        {
+          "letter": "C",
+          "text": "A machine with exactly one next state per input symbol and current state"
+        },
+        {
+          "letter": "D",
+          "text": "A machine that must always halt within two steps"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "2. What is the minimal number of states required for a DFA that accepts only the string “01”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "4"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "3. Which operation on regular languages always produces another regular language?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intersection"
+        },
+        {
+          "letter": "B",
+          "text": "Complement"
+        },
+        {
+          "letter": "C",
+          "text": "Concatenation"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "4. The regular expression a*b+c? describes strings that:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Contain at least one c"
+        },
+        {
+          "letter": "B",
+          "text": "Start with any number of a’s, then one or more b’s, and optionally one c"
+        },
+        {
+          "letter": "C",
+          "text": "End with one or more a’s"
+        },
+        {
+          "letter": "D",
+          "text": "Must contain exactly one b"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. An NFA can be converted into an equivalent DFA by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Removing all loops"
+        },
+        {
+          "letter": "B",
+          "text": "Simultaneously tracking all possible states (subset construction)"
+        },
+        {
+          "letter": "C",
+          "text": "Adding a trap state only"
+        },
+        {
+          "letter": "D",
+          "text": "Reversing all transitions"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "6. Which language over Σ = {0,1} is non-regular?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Strings with equal numbers of 0s and 1s"
+        },
+        {
+          "letter": "B",
+          "text": "Strings ending in 01"
+        },
+        {
+          "letter": "C",
+          "text": "Strings containing 00 as a substring"
+        },
+        {
+          "letter": "D",
+          "text": "Strings of even length"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "7. A trap (dead) state in a DFA is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The only accepting state"
+        },
+        {
+          "letter": "B",
+          "text": "A state once entered can never reach an accepting state"
+        },
+        {
+          "letter": "C",
+          "text": "The initial state"
+        },
+        {
+          "letter": "D",
+          "text": "A state with no outgoing transitions"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "8. The Pumping Lemma for regular languages is primarily used to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Minimize DFAs"
+        },
+        {
+          "letter": "B",
+          "text": "Prove that certain languages are not regular"
+        },
+        {
+          "letter": "C",
+          "text": "Convert NFAs to regular expressions"
+        },
+        {
+          "letter": "D",
+          "text": "Optimize parsing speed"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. The class of regular languages is closed under:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Union only"
+        },
+        {
+          "letter": "B",
+          "text": "Union and concatenation only"
+        },
+        {
+          "letter": "C",
+          "text": "Union, concatenation, and Kleene star"
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "10. Which string is not generated by (a+b)*abb?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "abb"
+        },
+        {
+          "letter": "B",
+          "text": "aabb"
+        },
+        {
+          "letter": "C",
+          "text": "babb"
+        },
+        {
+          "letter": "D",
+          "text": "abba"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "11. A Mealy machine differs from a Moore machine in that:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mealy has no accepting states"
+        },
+        {
+          "letter": "B",
+          "text": "Mealy outputs depend on both state and input"
+        },
+        {
+          "letter": "C",
+          "text": "Mealy cannot be converted to Moore"
+        },
+        {
+          "letter": "D",
+          "text": "Mealy is always deterministic"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "12. The Myhill-Nerode theorem characterizes:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Minimal NFA size"
+        },
+        {
+          "letter": "B",
+          "text": "Minimal DFA size via equivalence classes"
+        },
+        {
+          "letter": "C",
+          "text": "Context-free grammars"
+        },
+        {
+          "letter": "D",
+          "text": "Turing-decidable languages"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. A ε-NFA is an NFA that:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Has no accepting states"
+        },
+        {
+          "letter": "B",
+          "text": "Can change state without consuming input"
+        },
+        {
+          "letter": "C",
+          "text": "Must have a loop on every state"
+        },
+        {
+          "letter": "D",
+          "text": "Accepts only infinite strings"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. The Kleene star operation L* on language L produces:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All strings in L concatenated once"
+        },
+        {
+          "letter": "B",
+          "text": "All possible finite concatenations of strings from L including ε"
+        },
+        {
+          "letter": "C",
+          "text": "Only the longest string in L"
+        },
+        {
+          "letter": "D",
+          "text": "Only even-length strings in L"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "15. Which of these regular expressions equals (a+b)*?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a*b*"
+        },
+        {
+          "letter": "B",
+          "text": "(a*b*)*"
+        },
+        {
+          "letter": "C",
+          "text": "ab*"
+        },
+        {
+          "letter": "D",
+          "text": "a+b"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "16. A DFA with n states can recognize a string of length m in:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O(m·n) time"
+        },
+        {
+          "letter": "B",
+          "text": "O(m) time"
+        },
+        {
+          "letter": "C",
+          "text": "O(n²) time"
+        },
+        {
+          "letter": "D",
+          "text": "O(m²) time"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "17. The complement of a regular language is always:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Context-sensitive"
+        },
+        {
+          "letter": "B",
+          "text": "Non-regular"
+        },
+        {
+          "letter": "C",
+          "text": "Regular"
+        },
+        {
+          "letter": "D",
+          "text": "Recursive only"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "18. Which conversion step is unnecessary when building a DFA from an ε-NFA?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ε-closure computation"
+        },
+        {
+          "letter": "B",
+          "text": "Subset construction"
+        },
+        {
+          "letter": "C",
+          "text": "Removing unreachable states"
+        },
+        {
+          "letter": "D",
+          "text": "Reversing all transitions"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "19. A language is regular iff it is accepted by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Some Turing machine"
+        },
+        {
+          "letter": "B",
+          "text": "Some DFA (or NFA)"
+        },
+        {
+          "letter": "C",
+          "text": "Some context-free grammar"
+        },
+        {
+          "letter": "D",
+          "text": "Some pushdown automaton"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "20. The primary advantage of an NFA over a DFA is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Faster simulation time"
+        },
+        {
+          "letter": "B",
+          "text": "Potentially fewer states for the same language"
+        },
+        {
+          "letter": "C",
+          "text": "Guaranteed minimality"
+        },
+        {
+          "letter": "D",
+          "text": "No need for accepting states"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

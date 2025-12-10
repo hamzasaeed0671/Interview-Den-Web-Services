@@ -1,0 +1,91 @@
+{
+  "Name": "Waleed Saeed",
+  "Contact": {
+    "Email": "waleedsaeed027@gmail.com",
+    "Phone": "0333-455-3525",
+    "LinkedIn": "www.linkedin.com/in/waleed-saeed-a5b80522b",
+    "GitHub": "Not specified",
+    "Location": "Islamabad, Pakistan"
+  },
+  "Summary": "Passionate AI Engineer & Data Scientist with expertise in building and deploying advanced AI models, real-time processing, and intelligent automation. Skilled in optimizing AI-driven workflows and developing scalable solutions.",
+  "Experience": {
+    "Total Years": 0,
+    "Positions": [
+      {
+        "Title": "AI Engineer (Intern)",
+        "Company": "Codistan Ventures",
+        "Location": "Islamabad, Pakistan",
+        "Duration": "Feb 2025 - Current",
+        "Description": "Developed and deployed AI models, including RAG, fine-tuned architectures, and voice-controlled systems. Designed APIs and tools to make AI models easily integratable into production systems."
+      },
+      {
+        "Title": "AI Automation Engineer (Part-time)",
+        "Company": "Freelance",
+        "Location": "WorldWide",
+        "Duration": "Sept 2024 - Jan 2025",
+        "Description": "Automated tasks using Make.com and Zapier, integrating AI-powered chatbots and automated email responses. Optimized business processes by up to 80% through task automation, significantly reducing manual workload."
+      },
+      {
+        "Title": "Remote Content Writer",
+        "Company": "Hired AI",
+        "Location": "UAE",
+        "Duration": "Sept 2023 - Aug 2024",
+        "Description": "Crafted AI-focused Twitter and LinkedIn posts, engaging an audience with technical breakdowns and insights. Developed data-driven content strategies, refining posts based on engagement analytics."
+      }
+    ]
+  },
+  "Education": [
+    {
+      "Degree": "Bachelor of Data Science",
+      "Institution": "FAST University",
+      "Location": "Islamabad, PK",
+      "Graduation Year": "Ongoing",
+      "GPA": "Not specified"
+    }
+  ],
+  "Skills": [
+    "SQL",
+    "Python",
+    "Pandas",
+    "NumPy",
+    "SKLearn",
+    "MatPlotLib",
+    "Kafka",
+    "PySpark",
+    "Excel",
+    "MongoDB",
+    "Java",
+    "Tableau",
+    "C++",
+    "Team Lead",
+    "Communication",
+    "Project Management",
+    "Rapid Learning"
+  ],
+  "Projects": [
+    {
+      "Name": "AI-Powered Chrome Extension",
+      "Description": "Built a Chrome extension that turns webpages & videos into chatbots using AI. Extracted transcripts, generated vector embeddings, and enabled real-time querying.",
+      "Duration": "March 2025"
+    },
+    {
+      "Name": "Real-Time Data Warehouse for Metro Wholesale Pakistan",
+      "Description": "Engineered a real-time data warehouse using Java to merge streaming and pre-existing datasets via mesh join techniques. Implemented indexing and partitioning strategies, reducing query execution time by more than 80%.",
+      "Duration": "December 2024"
+    },
+    {
+      "Name": "End-to-End Data Analytical Pipeline in Tableau",
+      "Description": "Developed a data analytics workflow using Tableau Prep for data transformation, cleaning, and relationship modeling. Designed interactive dashboards and dynamic visualizations.",
+      "Duration": "November 2024"
+    },
+    {
+      "Name": "AI-Based Image Classification for Medical Diagnosis",
+      "Description": "Processed thousands of medical images to detect eye diseases using a KNN-based AI model in Python.",
+      "Duration": "April 2024"
+    }
+  ],
+  "Certifications": [],
+  "is_fraudulent": false,
+  "fraud_type": "None",
+  "red_flags": []
+}

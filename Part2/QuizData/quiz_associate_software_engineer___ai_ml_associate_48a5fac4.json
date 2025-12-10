@@ -1,0 +1,157 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_48a5fac4",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in the training and fine-tuning of models to improve accuracy and efficiency; conduct research on emerging AI/ML techniques and contribute to proof-of-concept development; document model development, research, and performance metrics for future reference and learning; collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient; assist in the development and implementation of machine learning models for various business applications",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Strong problem-solving skills",
+        "Ability to work effectively in a team environment",
+        "Willingness to continuously learn"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 5,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "In scikit-learn, which preprocessing step is most appropriate to scale numeric features so they have zero mean and unit variance before feeding them into a Keras neural network?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`MinMaxScaler()`"
+        },
+        {
+          "letter": "B",
+          "text": "`StandardScaler()`"
+        },
+        {
+          "letter": "C",
+          "text": "`Normalizer()`"
+        },
+        {
+          "letter": "D",
+          "text": "`RobustScaler()`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. You check out a new Git branch, add a commit, then run `git pull origin main` and see a merge conflict in model.py. Which command will safely abort the merge and return the branch to the state before the pull?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`git reset --hard HEAD`"
+        },
+        {
+          "letter": "B",
+          "text": "`git clean -fd`"
+        },
+        {
+          "letter": "C",
+          "text": "`git merge --abort`"
+        },
+        {
+          "letter": "D",
+          "text": "`git checkout --theirs model.py`"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "3. A PyTorch `DataLoader` is set with `batch_size=64` and `drop_last=False`. If the dataset has 130 samples, how many batches will be produced in one epoch?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "3"
+        },
+        {
+          "letter": "C",
+          "text": "64"
+        },
+        {
+          "letter": "D",
+          "text": "130"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. While training a TensorFlow model with `model.fit()`, you notice the training loss keeps decreasing but the validation loss increases. Which single callback can halt training early when this overfitting starts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`tf.keras.callbacks.ReduceLROnPlateau`"
+        },
+        {
+          "letter": "B",
+          "text": "`tf.keras.callbacks.EarlyStopping`"
+        },
+        {
+          "letter": "C",
+          "text": "`tf.keras.callbacks.ModelCheckpoint`"
+        },
+        {
+          "letter": "D",
+          "text": "`tf.keras.callbacks.TensorBoard`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. You need to combine two pandas DataFrames, `df_train` (columns: user_id, feature1, feature2) and `df_labels` (columns: user_id, label). Which SQL-equivalent operation merges them on `user_id` keeping only rows present in both DataFrames?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`pd.concat([df_train, df_labels])`"
+        },
+        {
+          "letter": "B",
+          "text": "`df_train.merge(df_labels, on='user_id', how='inner')`"
+        },
+        {
+          "letter": "C",
+          "text": "`df_train.join(df_labels)`"
+        },
+        {
+          "letter": "D",
+          "text": "`df_train.merge(df_labels, on='user_id', how='left')`"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

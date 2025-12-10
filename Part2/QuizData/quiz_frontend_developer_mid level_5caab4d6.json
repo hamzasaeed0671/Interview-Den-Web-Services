@@ -1,0 +1,362 @@
+{
+  "quiz_id": "quiz_frontend_developer_mid level_5caab4d6",
+  "job_info": {
+    "job_title": "Frontend Developer",
+    "role_description": "We are looking for a skilled Frontend Developer to join our team and help build intuitive, performant, and visually appealing web applications. You will work closely with designers, backend developers, and product managers to deliver seamless user experiences that align with business goals.",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Mid Level"
+    },
+    "skills_required": {
+      "technical_skills": [],
+      "soft_skills": [
+        "Good problem-solving, debugging, and communication skills."
+      ]
+    },
+    "job_responsibilities": [
+      "Develop responsive, accessible, and user-friendly interfaces using modern frontend frameworks (React, Next.js, Vue, etc.).",
+      "Integrate APIs and backend services to deliver dynamic web experiences.",
+      "Collaborate with UI/UX designers to translate designs into functional components.",
+      "Optimize web applications for speed, scalability, and cross-browser compatibility.",
+      "Participate in code reviews, version control (Git), and agile development practices.",
+      "Debug, test, and maintain code to ensure high quality and reliability.",
+      "Stay updated with the latest frontend trends, libraries, and best practices."
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Mid Level"
+  },
+  "questions": [
+    {
+      "question": "In a server-rendered Next.js page using `getServerSideProps`, which of the following must be returned for the page component to receive valid props?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`{ props: { … } }`"
+        },
+        {
+          "letter": "B",
+          "text": "`{ redirect: … }`"
+        },
+        {
+          "letter": "C",
+          "text": "`{ notFound: true }`"
+        },
+        {
+          "letter": "D",
+          "text": "`{ revalidate: 60 }`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "2. A Vue 3 component uses the Composition API. Which reactivity API should you import to create a reactive object whose mutations are tracked in the template?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`ref`"
+        },
+        {
+          "letter": "B",
+          "text": "`reactive`"
+        },
+        {
+          "letter": "C",
+          "text": "`readonly`"
+        },
+        {
+          "letter": "D",
+          "text": "`shallowRef`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. You need to ensure a React component only re-renders when its props actually change. Which higher-order component or hook is best suited for this optimization?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`React.memo`"
+        },
+        {
+          "letter": "B",
+          "text": "`useMemo`"
+        },
+        {
+          "letter": "C",
+          "text": "`useCallback`"
+        },
+        {
+          "letter": "D",
+          "text": "`React.PureComponent`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "4. A CSS rule `.card { contain: layout; }` is applied to a list item. What is the primary performance benefit?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Creates a new stacking context"
+        },
+        {
+          "letter": "B",
+          "text": "Prevents layout recalculation outside the element"
+        },
+        {
+          "letter": "C",
+          "text": "Forces GPU acceleration"
+        },
+        {
+          "letter": "D",
+          "text": "Enables sub-pixel rendering"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. You want to share non-visual logic between multiple React components without adding extra DOM nodes. Which pattern or hook do you choose?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Render prop"
+        },
+        {
+          "letter": "B",
+          "text": "HOC"
+        },
+        {
+          "letter": "C",
+          "text": "Custom hook"
+        },
+        {
+          "letter": "D",
+          "text": "`React.forwardRef`"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "6. While integrating an OAuth2 token endpoint, you receive a 400 with error `invalid_grant`. What is the most likely cause?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The access token expired"
+        },
+        {
+          "letter": "B",
+          "text": "The refresh token is reused or revoked"
+        },
+        {
+          "letter": "C",
+          "text": "The scope is too narrow"
+        },
+        {
+          "letter": "D",
+          "text": "The `redirect_uri` mismatches the authorized one"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "7. A Next.js app uses Image Optimization for a large hero image. Which attribute is mandatory for the `<Image>` component to avoid layout shift?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`priority`"
+        },
+        {
+          "letter": "B",
+          "text": "`placeholder`"
+        },
+        {
+          "letter": "C",
+          "text": "`blurDataURL`"
+        },
+        {
+          "letter": "D",
+          "text": "`sizes`"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "8. In TypeScript, you define a prop type that must be one of three exact strings. Which syntax is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`type Status = 'loading' | 'success' | 'error';`"
+        },
+        {
+          "letter": "B",
+          "text": "`type Status = ['loading','success','error'];`"
+        },
+        {
+          "letter": "C",
+          "text": "`enum Status { loading, success, error }`"
+        },
+        {
+          "letter": "D",
+          "text": "`type Status = { loading; success; error };`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "9. A Vuex store mutation is not triggering a reactive update. Which common mistake causes this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adding a new property to an existing object via `state.obj.newProp = value`"
+        },
+        {
+          "letter": "B",
+          "text": "Using `mapState` in a computed property"
+        },
+        {
+          "letter": "C",
+          "text": "Returning a new object from the mutation"
+        },
+        {
+          "letter": "D",
+          "text": "Using `Vue.set` inside an action"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "10. You need to support dark mode with a single CSS custom property. Which media query is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`@media (prefers-color-scheme: dark) { … }`"
+        },
+        {
+          "letter": "B",
+          "text": "`@media (color-scheme: dark) { … }`"
+        },
+        {
+          "letter": "C",
+          "text": "`@media (theme: dark) { … }`"
+        },
+        {
+          "letter": "D",
+          "text": "`@media (prefers-theme: dark) { … }`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "11. A React component fetches data in `useEffect` and updates state. Which dependency array prevents refetching on every render?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`[]`"
+        },
+        {
+          "letter": "B",
+          "text": "`[data]`"
+        },
+        {
+          "letter": "C",
+          "text": "`[fetchData]`"
+        },
+        {
+          "letter": "D",
+          "text": "No array"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. You want to split a large vendor chunk in Webpack 5 to improve caching. Which optimization option do you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`splitChunks.chunks = 'all'`"
+        },
+        {
+          "letter": "B",
+          "text": "`runtimeChunk: 'single'`"
+        },
+        {
+          "letter": "C",
+          "text": "`module.noParse`"
+        },
+        {
+          "letter": "D",
+          "text": "`experiments.lazyCompilation`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "13. A form must be submitted only when all fields are valid and the user is not a bot. Which HTML attribute satisfies the bot-check requirement without JavaScript?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`autocomplete=\"off\"`  \nC. `novalidate`  \nD. `disabled`  \nCorrect answer: B  \n\n14. Which Git command safely updates your local feature branch with the latest main branch without creating a merge commit?  \nA. `git merge main --squash`"
+        },
+        {
+          "letter": "B",
+          "text": "`git rebase main`"
+        },
+        {
+          "letter": "C",
+          "text": "`git pull --no-ff main`"
+        },
+        {
+          "letter": "D",
+          "text": "`git cherry-pick main`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "15. To achieve 100 Lighthouse SEO score, which tag must appear exactly once and contain concise page description?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`<title>`"
+        },
+        {
+          "letter": "B",
+          "text": "`<meta name=\"description\">`"
+        },
+        {
+          "letter": "C",
+          "text": "`<meta property=\"og:title\">`"
+        },
+        {
+          "letter": "D",
+          "text": "`<link rel=\"canonical\">`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "A Next.js e-commerce product page uses getServerSideProps to fetch pricing data, relies on a heavy client-side charting library that is only needed on this page, and must stay interactive while the chart renders. Which strategy best balances fast initial load, minimal bundle size, and good user experience?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Load the chart library directly in the page component and show a full-page loading spinner until it finishes"
+        },
+        {
+          "letter": "B",
+          "text": "Import the library normally at the top of the file and rely on Next.js automatic code-splitting to create a separate chunk"
+        },
+        {
+          "letter": "C",
+          "text": "Use dynamic(() => import('heavy-chart-lib'), { ssr: false, loading: () => <Skeleton /> }) inside a Suspense boundary"
+        },
+        {
+          "letter": "D",
+          "text": "Move the chart into its own page route and navigate to it after getServerSideProps completes"
+        }
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}

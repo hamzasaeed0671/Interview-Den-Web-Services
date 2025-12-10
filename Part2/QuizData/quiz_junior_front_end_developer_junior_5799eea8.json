@@ -1,0 +1,157 @@
+{
+  "quiz_id": "quiz_junior_front_end_developer_junior_5799eea8",
+  "job_info": {
+    "job_title": "Junior Front End Developer",
+    "role_description": "Design and develop the user interface of web applications using HTML, CSS, and JavaScript",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Junior"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Angular",
+        "Vue.js",
+        "webpack",
+        "Jest",
+        "Cypress"
+      ],
+      "soft_skills": [
+        "Strong attention to detail",
+        "Analytical skills",
+        "Excellent communication skills",
+        "Ability to work independently and collaboratively",
+        "Strong problem-solving skills"
+      ]
+    },
+    "preferred_skills": [],
+    "job_responsibilities": [
+      "Design and develop the user interface of web applications using HTML, CSS, and JavaScript",
+      "Collaborate with the development team to ensure that the user interface meets the specified requirements and quality standards",
+      "Debug and resolve issues in the front-end code, including performance and usability issues",
+      "Participate in code reviews and contribute to the development of new features and functionality",
+      "Develop and maintain reusable UI components and libraries",
+      "Participate in the development and maintenance of the application documentation",
+      "Stay current with industry trends and developments in front-end development"
+    ]
+  },
+  "metadata": {
+    "question_count": 5,
+    "level": "Junior"
+  },
+  "questions": [
+    {
+      "question": "Your React component fetches user data inside useEffect and stores it in users. While the fetch is in-flight you must render a <Spinner />. Which approach correctly keeps the component from briefly flashing “No users” before the data arrives?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "const [isLoading, setIsLoading] = useState(false);"
+        },
+        {
+          "letter": "B",
+          "text": "const [isLoading, setIsLoading] = useState(true);"
+        },
+        {
+          "letter": "C",
+          "text": "const [isLoading, setIsLoading] = useState(null);"
+        },
+        {
+          "letter": "D",
+          "text": "const isLoading = users.length === 0;"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. A Vue 3 component receives large props that are only read in the template. Which option best prevents unnecessary re-renders while keeping reactivity?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use shallowRef for the props."
+        },
+        {
+          "letter": "B",
+          "text": "Destructure props in setup with toRefs."
+        },
+        {
+          "letter": "C",
+          "text": "Mark the component with defineOptions({ immutable: true })."
+        },
+        {
+          "letter": "D",
+          "text": "Wrap the template in <template functional>."
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. You add a new SCSS partial _mixins.scss to a webpack build that already processes *.scss. Which import guarantees the mixins are available in every component without duplicating them in each file?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "@use 'mixins'; in each component’s <style>"
+        },
+        {
+          "letter": "B",
+          "text": "@import '~styles/mixins'; inside main.scss that is entry-loaded by webpack"
+        },
+        {
+          "letter": "C",
+          "text": "@forward 'mixins'; inside variables.scss"
+        },
+        {
+          "letter": "D",
+          "text": "Add MixinsPlugin to webpack.config.js"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. In Cypress you need to assert that a button becomes enabled only after a text field contains at least three characters. Which chain yields the most stable test?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cy.get('button').should('be.enabled').get('input').type('abc')"
+        },
+        {
+          "letter": "B",
+          "text": "cy.get('input').type('ab').get('button').should('be.disabled')"
+        },
+        {
+          "letter": "C",
+          "text": "cy.get('input').type('abc').get('button').should('be.enabled')"
+        },
+        {
+          "letter": "D",
+          "text": "cy.get('input').type('abc').then(() => cy.get('button').should('be.enabled'))"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. A Jest unit test fails with “Cannot find module '@/utils'”. The alias is already declared in webpack. Which single config file update fixes it for Jest without touching webpack?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add moduleNameMapper inside jest.config.js"
+        },
+        {
+          "letter": "B",
+          "text": "Add alias inside vite.config.js"
+        },
+        {
+          "letter": "C",
+          "text": "Add paths inside jsconfig.json"
+        },
+        {
+          "letter": "D",
+          "text": "Install jest-webpack-resolver"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

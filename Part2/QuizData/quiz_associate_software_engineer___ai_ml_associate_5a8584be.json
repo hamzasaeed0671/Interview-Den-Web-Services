@@ -1,0 +1,378 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_5a8584be",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in the training and fine-tuning of models to improve accuracy and efficiency; conduct research on emerging AI/ML techniques and contribute to proof-of-concept development; document model development, research, and performance metrics for future reference and learning; collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient; assist in the development and implementation of machine learning models for various business applications",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Strong problem-solving skills",
+        "Ability to work effectively in a team environment",
+        "Collaborate with cross-functional teams",
+        "Willingness to continuously learn"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "2. Which TensorFlow 2.x API should you use for quick layer stacking without writing a custom training loop?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tf.keras.Sequential"
+        },
+        {
+          "letter": "B",
+          "text": "tf.Session"
+        },
+        {
+          "letter": "C",
+          "text": "tf.placeholder"
+        },
+        {
+          "letter": "D",
+          "text": "tf.estimator.Estimator"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "3. In PyTorch, the correct way to compute the cross-entropy loss for raw logits and integer targets is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "nn.MSELoss"
+        },
+        {
+          "letter": "B",
+          "text": "nn.CrossEntropyLoss"
+        },
+        {
+          "letter": "C",
+          "text": "nn.BCELoss"
+        },
+        {
+          "letter": "D",
+          "text": "nn.KLDivLoss"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. A Git command that undoes the last commit while keeping changes staged is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git reset --hard HEAD~1"
+        },
+        {
+          "letter": "B",
+          "text": "git revert HEAD"
+        },
+        {
+          "letter": "C",
+          "text": "git reset --soft HEAD~1"
+        },
+        {
+          "letter": "D",
+          "text": "git checkout HEAD~1"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. Which SQL clause is mandatory whenever you use an aggregate function like COUNT() alongside non-aggregated columns?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ORDER BY"
+        },
+        {
+          "letter": "B",
+          "text": "GROUP BY"
+        },
+        {
+          "letter": "C",
+          "text": "HAVING"
+        },
+        {
+          "letter": "D",
+          "text": "LIMIT"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "6. In Keras, which callback automatically stops training if validation loss stops improving for a specified number of epochs?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ModelCheckpoint"
+        },
+        {
+          "letter": "B",
+          "text": "EarlyStopping"
+        },
+        {
+          "letter": "C",
+          "text": "ReduceLROnPlateau"
+        },
+        {
+          "letter": "D",
+          "text": "TensorBoard"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "7. You have a pandas DataFrame `df` with a column `price` that contains outliers. Which scikit-learn transformer is most suitable for scaling this column to a robust range?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "StandardScaler"
+        },
+        {
+          "letter": "B",
+          "text": "MinMaxScaler"
+        },
+        {
+          "letter": "C",
+          "text": "RobustScaler"
+        },
+        {
+          "letter": "D",
+          "text": "Normalizer"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "8. In PyTorch, to move a model instance `model` to GPU device 0, the correct syntax is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "model.cuda(1)"
+        },
+        {
+          "letter": "B",
+          "text": "model.to('cuda:0')"
+        },
+        {
+          "letter": "C",
+          "text": "model.gpu(0)"
+        },
+        {
+          "letter": "D",
+          "text": "model.device('gpu')"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. Which TensorFlow module provides off-the-shelf data augmentation layers such as RandomFlip and RandomRotation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tf.image"
+        },
+        {
+          "letter": "B",
+          "text": "tf.keras.layers.experimental.preprocessing"
+        },
+        {
+          "letter": "C",
+          "text": "tf.data.Dataset"
+        },
+        {
+          "letter": "D",
+          "text": "tf.keras.preprocessing.image"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. In SQL, which join type returns all rows from the left table and matched rows from the right table, filling with NULLs when there is no match?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "INNER JOIN"
+        },
+        {
+          "letter": "B",
+          "text": "RIGHT JOIN"
+        },
+        {
+          "letter": "C",
+          "text": "LEFT JOIN"
+        },
+        {
+          "letter": "D",
+          "text": "FULL OUTER JOIN"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "11. To save a scikit-learn model named `clf` to disk using joblib, the correct line is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "joblib.dump(clf, 'model.pkl')"
+        },
+        {
+          "letter": "B",
+          "text": "joblib.save(clf, 'model.pkl')"
+        },
+        {
+          "letter": "C",
+          "text": "joblib.store(clf, 'model.pkl')"
+        },
+        {
+          "letter": "D",
+          "text": "joblib.write(clf, 'model.pkl')"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. In Keras, which optimizer is recommended as a good default starting point for most deep-learning tasks?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SGD with momentum"
+        },
+        {
+          "letter": "B",
+          "text": "Adagrad"
+        },
+        {
+          "letter": "C",
+          "text": "Adam"
+        },
+        {
+          "letter": "D",
+          "text": "RMSprop"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "13. Which pandas method is best suited to fill missing values with the mean of each column?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "df.fillna(method='mean')"
+        },
+        {
+          "letter": "B",
+          "text": "df.fillna(df.mean())"
+        },
+        {
+          "letter": "C",
+          "text": "df.replace(np.nan, df.mean())"
+        },
+        {
+          "letter": "D",
+          "text": "df.interpolate(method='mean')"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. In PyTorch, the proper way to disable gradient computation for inference is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "torch.no_grad()"
+        },
+        {
+          "letter": "B",
+          "text": "torch.disable_grad()"
+        },
+        {
+          "letter": "C",
+          "text": "model.eval_mode()"
+        },
+        {
+          "letter": "D",
+          "text": "model.stop_gradient()"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "15. When you increase the batch size during training, which of the following effects is most likely?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Training becomes slower per epoch but gradients are more accurate"
+        },
+        {
+          "letter": "B",
+          "text": "Training becomes faster per epoch and GPU memory usage decreases"
+        },
+        {
+          "letter": "C",
+          "text": "GPU memory usage increases and training becomes faster per epoch"
+        },
+        {
+          "letter": "D",
+          "text": "GPU memory usage decreases and gradients become more accurate"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "You have a pandas DataFrame `df` containing 50,000 image labels stored as lowercase strings. Before feeding the labels to a Keras model expecting one-hot encoded targets, which single-line command correctly converts the column to the required format?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`pd.get_dummies(df['label'])`"
+        },
+        {
+          "letter": "B",
+          "text": "`df['label'] = pd.Categorical(df['label']).codes`"
+        },
+        {
+          "letter": "C",
+          "text": "`df['label'] = (df['label'] - df['label'].mean()) / df['label'].std()`"
+        },
+        {
+          "letter": "D",
+          "text": "`df['label'] = df['label'].astype('category').cat.codes`"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_ebe16306",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in the training and fine-tuning of models to improve accuracy and efficiency; conduct research on emerging AI/ML techniques and contribute to proof-of-concept development; document model development, research, and performance metrics for future reference and learning; collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient; assist in the development and implementation of machine learning models for various business applications",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Strong problem-solving skills",
+        "Ability to work effectively in a team environment",
+        "Willingness to continuously learn"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 5,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "In scikit-learn, which preprocessing class should you choose to standardize a feature matrix so that each column has zero mean and unit variance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "StandardScaler"
+        },
+        {
+          "letter": "B",
+          "text": "MinMaxScaler"
+        },
+        {
+          "letter": "C",
+          "text": "Normalizer"
+        },
+        {
+          "letter": "D",
+          "text": "RobustScaler"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "2. You build a sequential model in Keras with `model.add(Dense(64, activation='relu'))`. Which TensorFlow backend function is automatically created for this layer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`tf.nn.relu`"
+        },
+        {
+          "letter": "B",
+          "text": "`tf.keras.activations.relu`"
+        },
+        {
+          "letter": "C",
+          "text": "`tf.math.relu`"
+        },
+        {
+          "letter": "D",
+          "text": "`tf.keras.layers.ReLU`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. While training a PyTorch model you call `loss.backward()`. What does this single line compute?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The loss value itself"
+        },
+        {
+          "letter": "B",
+          "text": "Gradients of the loss w.r.t. all leaf tensors with `requires_grad=True`"
+        },
+        {
+          "letter": "C",
+          "text": "Updated parameter values"
+        },
+        {
+          "letter": "D",
+          "text": "Validation accuracy"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. Your pandas DataFrame `df` has 5 % missing values. Which single-line command drops every row that contains at least one NaN?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`df.dropna(how='any')`"
+        },
+        {
+          "letter": "B",
+          "text": "`df.dropna(how='all')`"
+        },
+        {
+          "letter": "C",
+          "text": "`df.fillna(method='drop')`"
+        },
+        {
+          "letter": "D",
+          "text": "`df.remove NaN()`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "You are given a pandas DataFrame `df` containing 10 million rows. Which single-line statement will most efficiently convert the column `price` from a Python object dtype to a 32-bit float and set any non-numeric values to NaN?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "df['price'] = df['price'].astype('float32', errors='coerce')"
+        },
+        {
+          "letter": "B",
+          "text": "df['price'] = pd.to_numeric(df['price'], downcast='float', errors='coerce')"
+        },
+        {
+          "letter": "C",
+          "text": "df['price'] = df['price'].apply(pd.to_numeric, args=('float32',))"
+        },
+        {
+          "letter": "D",
+          "text": "df['price'] = df['price'].convert_dtypes(dtype='float32')"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

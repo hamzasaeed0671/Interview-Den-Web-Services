@@ -1,0 +1,377 @@
+{
+  "quiz_id": "quiz_junior_front_end_developer_junior_0b3476b1",
+  "job_info": {
+    "job_title": "Junior Front End Developer",
+    "role_description": "Design and develop the user interface of web applications using HTML, CSS, and JavaScript",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Junior"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Angular",
+        "Vue.js",
+        "webpack",
+        "Jest",
+        "Cypress"
+      ],
+      "soft_skills": [
+        "Strong attention to detail",
+        "Analytical skills",
+        "Excellent communication skills",
+        "Ability to work independently and collaboratively",
+        "Strong problem-solving skills"
+      ]
+    },
+    "preferred_skills": [],
+    "job_responsibilities": [
+      "Design and develop the user interface of web applications using HTML, CSS, and JavaScript",
+      "Collaborate with the development team to ensure that the user interface meets the specified requirements and quality standards",
+      "Debug and resolve issues in the front-end code, including performance and usability issues",
+      "Participate in code reviews and contribute to the development of new features and functionality",
+      "Develop and maintain reusable UI components and libraries",
+      "Participate in the development and maintenance of the application documentation",
+      "Stay current with industry trends and developments in front-end development"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Junior"
+  },
+  "questions": [
+    {
+      "question": "A React functional component fetches a list of products inside useEffect and stores them in state, but a console.log right after setProducts shows the old array. Which statement best explains this behaviour and the correct way to read the updated value?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "State updates are asynchronous; use another useEffect that depends on the products state to observe the new value."
+        },
+        {
+          "letter": "B",
+          "text": "setProducts is synchronous in development mode; the console.log must be wrapped in setTimeout(..., 0)."
+        },
+        {
+          "letter": "C",
+          "text": "React batches all state updates only inside event handlers, not inside useEffect."
+        },
+        {
+          "letter": "D",
+          "text": "The state hook is broken; switch to a class component and use this.setState(callback)."
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "2. You need to lazy-load an Angular feature module when the user navigates to /admin. Which router configuration accomplishes this without additional third-party libraries?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "{ path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) }"
+        },
+        {
+          "letter": "B",
+          "text": "{ path: 'admin', component: AdminComponent, lazy: true }"
+        },
+        {
+          "letter": "C",
+          "text": "{ path: 'admin', loadChildren: './admin/admin.module#AdminModule' }"
+        },
+        {
+          "letter": "D",
+          "text": "{ path: 'admin', loadChildren: AdminModule }"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "3. A Vue 3 component using the Composition API has an array of user objects. Which reactive reference declaration ensures that adding or deleting a user triggers re-rendering?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "const users = ref([]);"
+        },
+        {
+          "letter": "B",
+          "text": "const users = reactive([]);"
+        },
+        {
+          "letter": "C",
+          "text": "const users = shallowRef([]);"
+        },
+        {
+          "letter": "D",
+          "text": "const users = computed([]);"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "4. A webpack build produces a 3 MB vendor bundle in production. Which single built-in webpack optimisation is most effective to reduce the size without code changes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable splitChunks.chunks: 'all' to share node_modules across entry points."
+        },
+        {
+          "letter": "B",
+          "text": "Set mode: 'development' to enable tree-shaking."
+        },
+        {
+          "letter": "C",
+          "text": "Increase devtool source-map resolution for better minification."
+        },
+        {
+          "letter": "D",
+          "text": "Disable SplitChunksPlugin and rely on terser-webpack-plugin alone."
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "5. You are styling a card that must be 300 px wide on desktop, 100% wide on mobile, and keep its aspect ratio 16:9. Which modern CSS snippet fulfils these requirements without JavaScript?",
+      "options": [
+        {
+          "letter": "A",
+          "text": ".card{width:300px;max-width:100%;aspect-ratio:16/9;}"
+        },
+        {
+          "letter": "B",
+          "text": ".card{width:clamp(100%, 300px, 16/9);}"
+        },
+        {
+          "letter": "C",
+          "text": ".card{width:300px;height:calc(300px * 9 / 16);}@media(max-width:600px){.card{width:100%;height:auto;}}"
+        },
+        {
+          "letter": "D",
+          "text": ".card{min-width:300px;height:56.25%;}"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "6. A Jest unit test fails with “Cannot find module ‘axios’” inside a Create-React-App project. The dependency is listed in package.json. Which action most likely fixes the error?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Run npm install --save-dev axios and clear the Jest cache with jest --clearCache."
+        },
+        {
+          "letter": "B",
+          "text": "Add moduleNameMapper: { axios: 'axios/dist/node/axios.cjs' } in jest.config.js."
+        },
+        {
+          "letter": "C",
+          "text": "Delete node_modules and package-lock.json, then reinstall."
+        },
+        {
+          "letter": "D",
+          "text": "Rename the test file from .test.js to .spec.js."
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. During a Cypress test, clicking a button opens a new tab, but Cypress loses control. Which official Cypress feature or recommended practice solves this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Remove the target=\"_blank\" attribute in the test before clicking."
+        },
+        {
+          "letter": "B",
+          "text": "Use cy.window().then(w => w.open = cy.stub()) to suppress new tabs."
+        },
+        {
+          "letter": "C",
+          "text": "Add { force: true } to the click command."
+        },
+        {
+          "letter": "D",
+          "text": "Switch to the new tab with cy.get('a').invoke('removeAttr', 'target').click()."
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "8. A junior developer adds a CSS rule * { box-sizing: border-box } but notices horizontal scrollbars only on legacy Internet Explorer. Which CSS feature should be added to make the rule work on IE10+?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "/* */ and add -webkit-box-sizing: border-box;"
+        },
+        {
+          "letter": "B",
+          "text": "Add the HTML5 doctype <!doctype html> to trigger standards mode."
+        },
+        {
+          "letter": "C",
+          "text": "Prefix the rule with -ms-box-sizing: border-box;"
+        },
+        {
+          "letter": "D",
+          "text": "Include the meta tag X-UA-Compatible: IE=edge."
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. A React app uses Context for authentication. After login, the header bar does not re-render the user name. Which common mistake causes this, and how is it fixed?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The context value is a non-memoized object; wrap it in useMemo or useState."
+        },
+        {
+          "letter": "B",
+          "text": "The header reads from localStorage instead of context; switch to Redux."
+        },
+        {
+          "letter": "C",
+          "text": "React Context does not propagate to siblings; lift state to a parent."
+        },
+        {
+          "letter": "D",
+          "text": "The header must be a class component to subscribe to context changes."
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "10. An Angular template shows {{ price | currency }} but the pipe throws “InvalidPipeArgument” for price='12.5'. What is the minimal code change to display $12.50?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Convert the value to a number: price = parseFloat('12.5');"
+        },
+        {
+          "letter": "B",
+          "text": "Replace the currency pipe with the number pipe."
+        },
+        {
+          "letter": "C",
+          "text": "Add a custom pipe that appends '$'."
+        },
+        {
+          "letter": "D",
+          "text": "Use [innerHTML] instead of interpolation."
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "11. In Vue 2, v-model on a custom component named <base-input> does not update the parent value. Which extra declaration is required inside base-input?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "model: { prop: 'value', event: 'input' } and emit input on change."
+        },
+        {
+          "letter": "B",
+          "text": "Add .sync modifier instead of v-model."
+        },
+        {
+          "letter": "C",
+          "text": "Declare v-model.lazy on the parent."
+        },
+        {
+          "letter": "D",
+          "text": "Replace v-model with :value and @change."
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. A webpack loader chain processes SCSS files. Which loader order (right-to-left) is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sass-loader → css-loader → MiniCssExtractPlugin.loader"
+        },
+        {
+          "letter": "B",
+          "text": "css-loader → sass-loader → style-loader"
+        },
+        {
+          "letter": "C",
+          "text": "MiniCssExtractPlugin.loader → css-loader → sass-loader"
+        },
+        {
+          "letter": "D",
+          "text": "style-loader → sass-loader → css-loader"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "13. You need to test that a button is disabled when an input is empty using Testing-Library/React. Which matcher is the most idiomatic?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "expect(button).toBeDisabled();"
+        },
+        {
+          "letter": "B",
+          "text": "expect(button.disabled).toBe(true);"
+        },
+        {
+          "letter": "C",
+          "text": "expect(button).toHaveAttribute('disabled');"
+        },
+        {
+          "letter": "D",
+          "text": "expect(button).toHaveProperty('disabled', true);"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "14. A flex container with justify-content: space-between leaves extra vertical space on the cross-axis. Which single property aligns the items to the top?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "align-items: flex-start;"
+        },
+        {
+          "letter": "B",
+          "text": "align-content: flex-start;"
+        },
+        {
+          "letter": "C",
+          "text": "flex-direction: column;"
+        },
+        {
+          "letter": "D",
+          "text": "place-items: start;"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "15. A junior engineer adds console.log in a React effect and notices it runs twice in development. Which React 18 feature causes this, and what is its purpose?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "StrictMode mounts components twice to detect side effects."
+        },
+        {
+          "letter": "B",
+          "text": "React 18 uses concurrent rendering, always double-rendering."
+        },
+        {
+          "letter": "C",
+          "text": "The component is wrapped in <Suspense>; remove it to stop the rerun."
+        },
+        {
+          "letter": "D",
+          "text": "useEffect is deprecated; switch to useLayoutEffect."
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

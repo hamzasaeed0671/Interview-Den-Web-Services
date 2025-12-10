@@ -1,0 +1,352 @@
+{
+  "quiz_id": "quiz__mid level_d1725115",
+  "job_info": {
+    "job_title": "",
+    "role_description": "",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Mid Level"
+    },
+    "skills_required": {
+      "technical_skills": [],
+      "soft_skills": []
+    },
+    "job_responsibilities": []
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Mid Level"
+  },
+  "questions": [
+    {
+      "question": "In Python 3.11, which GIL change most improves multi-threaded CPU-bound performance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GIL is removed entirely."
+        },
+        {
+          "letter": "B",
+          "text": "GIL is released on I/O only."
+        },
+        {
+          "letter": "C",
+          "text": "GIL per-interpreter and “GIL drop” every 5 ms."
+        },
+        {
+          "letter": "D",
+          "text": "GIL replaced by fine-grained locks."
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "2. A Spring Boot 3 service must expose metrics in Prometheus format. Which micrometer registry do you add?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "micrometer-registry-influx"
+        },
+        {
+          "letter": "B",
+          "text": "micrometer-registry-prometheus"
+        },
+        {
+          "letter": "C",
+          "text": "micrometer-registry-graphite"
+        },
+        {
+          "letter": "D",
+          "text": "micrometer-registry-jmx"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. You need an S3-compatible object store that keeps data on-prem for compliance. Which option is cheapest to run yourself?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ceph RGW"
+        },
+        {
+          "letter": "B",
+          "text": "NetApp StorageGRID"
+        },
+        {
+          "letter": "C",
+          "text": "Dell ECS"
+        },
+        {
+          "letter": "D",
+          "text": "AWS Outposts"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "4. A React 18 component fetches data in useEffect. Which hook prevents refetching on every render?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "useMemo"
+        },
+        {
+          "letter": "B",
+          "text": "useCallback"
+        },
+        {
+          "letter": "C",
+          "text": "useRef"
+        },
+        {
+          "letter": "D",
+          "text": "useLayoutEffect"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. In PostgreSQL 15, which index type best accelerates “WHERE ip << ‘192.168.0.0/16’”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "B-tree"
+        },
+        {
+          "letter": "B",
+          "text": "Hash"
+        },
+        {
+          "letter": "C",
+          "text": "GiST"
+        },
+        {
+          "letter": "D",
+          "text": "GIN"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "6. A Docker image jumps from 120 MB to 1.2 GB after adding an npm install layer. The quickest fix is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Switch to debian:stable-slim"
+        },
+        {
+          "letter": "B",
+          "text": "Use docker-squash"
+        },
+        {
+          "letter": "C",
+          "text": "Add –production and multi-stage build"
+        },
+        {
+          "letter": "D",
+          "text": "Enable BuildKit’s –mount=type=cache"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. Your CI runner needs short-lived AWS creds. Which OIDC-provider approach is most secure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "IAM user keys rotated daily"
+        },
+        {
+          "letter": "B",
+          "text": "web-identity token with role-arn and external-id"
+        },
+        {
+          "letter": "C",
+          "text": "STS GetSessionToken"
+        },
+        {
+          "letter": "D",
+          "text": "IAM Access Analyzer"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "8. A Kubernetes Pod needs 4 cores but must not share hyper-threads. Which field guarantees it?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "resources.limits.cpu: “4”"
+        },
+        {
+          "letter": "B",
+          "text": "resources.requests.cpu: “4000m”"
+        },
+        {
+          "letter": "C",
+          "text": "resources.limits.cpu: “4” + kubelet cpu-manager-policy=static"
+        },
+        {
+          "letter": "D",
+          "text": "nodeAffinity with intel/amd label"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "9. In Terraform 1.5, you want to prevent state-file drift. Which block enforces exact resource matching?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "lifecycle ignore_changes"
+        },
+        {
+          "letter": "B",
+          "text": "lifecycle replace_triggered_by"
+        },
+        {
+          "letter": "C",
+          "text": "lifecycle prevent_destroy"
+        },
+        {
+          "letter": "D",
+          "text": "terraform import"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. A REST endpoint returns 201 but the Location header is missing. Which RFC mandates it?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RFC 7230 §4.2"
+        },
+        {
+          "letter": "B",
+          "text": "RFC 7231 §7.1.2"
+        },
+        {
+          "letter": "C",
+          "text": "RFC 7234 §5.5"
+        },
+        {
+          "letter": "D",
+          "text": "RFC 7540 §8.1.2"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "11. You are tracing a Go service with OpenTelemetry. Which exporter sends traces directly to Grafana Cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "otlphttp"
+        },
+        {
+          "letter": "B",
+          "text": "jaeger"
+        },
+        {
+          "letter": "C",
+          "text": "zipkin"
+        },
+        {
+          "letter": "D",
+          "text": "loki"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. A Linux VM sees 30 % steal. The immediate mitigation is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Resize the VM to a larger flavor"
+        },
+        {
+          "letter": "B",
+          "text": "Enable huge pages"
+        },
+        {
+          "letter": "C",
+          "text": "Move to a dedicated host"
+        },
+        {
+          "letter": "D",
+          "text": "Switch to io_uring"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "13. In AWS, which combination gives 99.99 % SLA for a stateless microservice?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ALB + single-AZ ASG"
+        },
+        {
+          "letter": "B",
+          "text": "ALB + multi-AZ ASG + AWS Shield Standard"
+        },
+        {
+          "letter": "C",
+          "text": "ALB + multi-AZ ASG + AWS Shield Advanced"
+        },
+        {
+          "letter": "D",
+          "text": "NLB + single-AZ ASG + AWS Shield Advanced"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "14. A MySQL 8 query uses SELECT … FOR UPDATE and deadlocks. The best first step is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lower isolation level to READ UNCOMMITTED"
+        },
+        {
+          "letter": "B",
+          "text": "Add FORCE INDEX"
+        },
+        {
+          "letter": "C",
+          "text": "Shorten transaction and reorder updates by primary key"
+        },
+        {
+          "letter": "D",
+          "text": "Enable innodb_deadlock_detect=off"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "15. In Git 2.42, you want to drop every commit that changes “*.log”. Which command does it non-interactively?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git rebase –exec ‘rm *.log’"
+        },
+        {
+          "letter": "B",
+          "text": "git filter-branch –tree-filter ‘rm -f *.log’"
+        },
+        {
+          "letter": "C",
+          "text": "git filter-repo –path-glob ‘*.log’ –invert-paths"
+        },
+        {
+          "letter": "D",
+          "text": "git reflog –expire=all"
+        }
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}

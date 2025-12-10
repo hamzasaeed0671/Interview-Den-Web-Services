@@ -1,0 +1,132 @@
+{
+  "quiz_id": "quiz__mid level_9a56a4d9",
+  "job_info": {
+    "job_title": "",
+    "role_description": "",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Mid Level"
+    },
+    "skills_required": {
+      "technical_skills": [],
+      "soft_skills": []
+    },
+    "job_responsibilities": []
+  },
+  "metadata": {
+    "question_count": 5,
+    "level": "Mid Level"
+  },
+  "questions": [
+    {
+      "question": "In the Linux VFS layer, which data structure is used to represent an open instance of a file and maintains the current file offset?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "struct file_system_type"
+        },
+        {
+          "letter": "B",
+          "text": "struct file"
+        },
+        {
+          "letter": "C",
+          "text": "struct inode"
+        },
+        {
+          "letter": "D",
+          "text": "struct dentry"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. When configuring a 3-node Ceph cluster for 10 TB of usable capacity with replica size 3, what is the minimum raw disk space required across all nodes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10 TB"
+        },
+        {
+          "letter": "B",
+          "text": "20 TB"
+        },
+        {
+          "letter": "C",
+          "text": "30 TB"
+        },
+        {
+          "letter": "D",
+          "text": "40 TB"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "3. Which RAID level provides the best balance of usable capacity, fault tolerance, and performance for a 4-drive array in a mid-range NAS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RAID 0"
+        },
+        {
+          "letter": "B",
+          "text": "RAID 1"
+        },
+        {
+          "letter": "C",
+          "text": "RAID 5"
+        },
+        {
+          "letter": "D",
+          "text": "RAID 6"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "4. A ZFS pool shows 80 % fragmentation and slow writes. Which low-impact action will most immediately improve write latency without adding vdevs?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable compression=lz4"
+        },
+        {
+          "letter": "B",
+          "text": "Increase ARC size"
+        },
+        {
+          "letter": "C",
+          "text": "Run zpool trim"
+        },
+        {
+          "letter": "D",
+          "text": "Set recordsize=1 M"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. Which OpenStack service is responsible for scheduling and provisioning block-storage volumes to compute instances?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nova"
+        },
+        {
+          "letter": "B",
+          "text": "Cinder"
+        },
+        {
+          "letter": "C",
+          "text": "Neutron"
+        },
+        {
+          "letter": "D",
+          "text": "Swift"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

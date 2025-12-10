@@ -1,0 +1,477 @@
+{
+  "quiz_id": "quiz_project_manager_entry level_16f78db5",
+  "job_info": {
+    "job_title": "Project Manager",
+    "role_description": "About the Role\n\nWe are seeking a highly organized and proactive Project Manager to lead and coordinate our product development initiatives from planning to delivery. The ideal candidate is skilled at balancing priorities, managing cross-functional teams, and ensuring that projects are delivered on time, within scope, and aligned with business objectives.\n\nYou will serve as the bridge between technical teams, design, stakeholders, and management — ensuring smooth communication, risk management, and progress tracking throughout the project lifecycle.",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Entry Level"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Frontend"
+      ],
+      "soft_skills": [
+        "Excellent communication, organization, and leadership skills."
+      ]
+    },
+    "job_responsibilities": [
+      "Key Responsibilities",
+      "Plan, execute, and monitor projects using Agile or Scrum methodologies.",
+      "Define clear project scopes, deliverables, timelines, and milestones.",
+      "Coordinate with engineering, design, and business teams to ensure alignment.",
+      "Manage and maintain project documentation, progress reports, and risk logs.",
+      "Conduct daily standups, sprint planning, and retrospectives.",
+      "Track project KPIs, resource allocation, and dependencies.",
+      "Communicate project status and blockers to stakeholders effectively.",
+      "Identify risks early and implement mitigation strategies.",
+      "Ensure high-quality delivery that aligns with client or product requirements."
+    ]
+  },
+  "metadata": {
+    "question_count": 20,
+    "level": "Entry Level"
+  },
+  "questions": [
+    {
+      "question": "In Scrum, what is the maximum recommended duration of a daily stand-up meeting?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "30 minutes"
+        },
+        {
+          "letter": "B",
+          "text": "15 minutes"
+        },
+        {
+          "letter": "C",
+          "text": "60 minutes"
+        },
+        {
+          "letter": "D",
+          "text": "5 minutes"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. Which artifact captures all planned work for the current sprint?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Product backlog"
+        },
+        {
+          "letter": "B",
+          "text": "Sprint backlog"
+        },
+        {
+          "letter": "C",
+          "text": "Release plan"
+        },
+        {
+          "letter": "D",
+          "text": "Burndown chart"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. During sprint planning, who is primarily responsible for estimating the effort of backlog items?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scrum Master"
+        },
+        {
+          "letter": "B",
+          "text": "Product Owner"
+        },
+        {
+          "letter": "C",
+          "text": "Development team"
+        },
+        {
+          "letter": "D",
+          "text": "Stakeholders"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "4. Which metric best indicates how much work remains in the current sprint?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Velocity"
+        },
+        {
+          "letter": "B",
+          "text": "Sprint burndown"
+        },
+        {
+          "letter": "C",
+          "text": "Earned value"
+        },
+        {
+          "letter": "D",
+          "text": "Cycle time"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. A frontend bug is discovered in production. Where should it be logged first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sprint backlog"
+        },
+        {
+          "letter": "B",
+          "text": "Product backlog"
+        },
+        {
+          "letter": "C",
+          "text": "Risk register"
+        },
+        {
+          "letter": "D",
+          "text": "Retrospective notes"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "6. Which ceremony is held to inspect and adapt the process after a sprint ends?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sprint review"
+        },
+        {
+          "letter": "B",
+          "text": "Sprint retrospective"
+        },
+        {
+          "letter": "C",
+          "text": "Daily stand-up"
+        },
+        {
+          "letter": "D",
+          "text": "Release planning"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "7. A spike user story is used to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increase velocity"
+        },
+        {
+          "letter": "B",
+          "text": "Reduce technical debt"
+        },
+        {
+          "letter": "C",
+          "text": "Research or prototype unknown areas"
+        },
+        {
+          "letter": "D",
+          "text": "Replace unit tests"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "8. The Product Owner requests a new feature mid-sprint. What should the PM do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add it to the current sprint"
+        },
+        {
+          "letter": "B",
+          "text": "Reject it immediately"
+        },
+        {
+          "letter": "C",
+          "text": "Add it to the product backlog for prioritization"
+        },
+        {
+          "letter": "D",
+          "text": "Extend the sprint length"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "9. Which of the following best describes “definition of done” for a frontend task?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Code compiles"
+        },
+        {
+          "letter": "B",
+          "text": "Peer-reviewed, unit-tested, merged, and deployed to staging"
+        },
+        {
+          "letter": "C",
+          "text": "Demoed to UX team"
+        },
+        {
+          "letter": "D",
+          "text": "Ticket moved to “In Progress”"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. A risk with high probability and high impact should be:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ignored"
+        },
+        {
+          "letter": "B",
+          "text": "Accepted"
+        },
+        {
+          "letter": "C",
+          "text": "Mitigated or avoided"
+        },
+        {
+          "letter": "D",
+          "text": "Transferred to client"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "11. Which chart tracks completed story points per sprint to forecast release dates?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gantt chart"
+        },
+        {
+          "letter": "B",
+          "text": "Velocity chart"
+        },
+        {
+          "letter": "C",
+          "text": "Pareto chart"
+        },
+        {
+          "letter": "D",
+          "text": "Kanban board"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "12. A blocker is raised in stand-up. The best next step is to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Extend the sprint"
+        },
+        {
+          "letter": "B",
+          "text": "Discuss it offline with relevant team members after stand-up"
+        },
+        {
+          "letter": "C",
+          "text": "Cancel the sprint"
+        },
+        {
+          "letter": "D",
+          "text": "Blame the assignee"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. Which role is responsible for shielding the team from external interruptions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Product Owner"
+        },
+        {
+          "letter": "B",
+          "text": "Project Manager / Scrum Master"
+        },
+        {
+          "letter": "C",
+          "text": "QA Lead"
+        },
+        {
+          "letter": "D",
+          "text": "Tech Lead"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. Work-in-progress (WIP) limits are most closely associated with:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scrum"
+        },
+        {
+          "letter": "B",
+          "text": "Waterfall"
+        },
+        {
+          "letter": "C",
+          "text": "Kanban"
+        },
+        {
+          "letter": "D",
+          "text": "Critical path"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "15. A frontend component fails cross-browser testing two days before release. What is the first document to update?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Risk log"
+        },
+        {
+          "letter": "B",
+          "text": "Scope statement"
+        },
+        {
+          "letter": "C",
+          "text": "RACI matrix"
+        },
+        {
+          "letter": "D",
+          "text": "Communication plan"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "16. Which of the following is a valid acceptance criterion for a login page user story?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "“User can log in quickly”"
+        },
+        {
+          "letter": "B",
+          "text": "“Page looks nice”"
+        },
+        {
+          "letter": "C",
+          "text": "“User can enter credentials and reach dashboard within 2 seconds on Chrome v110+”"
+        },
+        {
+          "letter": "D",
+          "text": "“Code is refactored”"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "17. The team averages 40 story points per 2-week sprint. They have 200 points left. Roughly how many sprints remain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4"
+        },
+        {
+          "letter": "B",
+          "text": "5"
+        },
+        {
+          "letter": "C",
+          "text": "6"
+        },
+        {
+          "letter": "D",
+          "text": "8"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "18. Which meeting answers the three questions: “What did I do?”, “What will I do?”, “What blocks me?”",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sprint review"
+        },
+        {
+          "letter": "B",
+          "text": "Daily stand-up"
+        },
+        {
+          "letter": "C",
+          "text": "Retrospective"
+        },
+        {
+          "letter": "D",
+          "text": "Backlog grooming"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "19. A dependency on an external API is flagged. Where should this be tracked?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Definition of ready"
+        },
+        {
+          "letter": "B",
+          "text": "Risk register / dependency log"
+        },
+        {
+          "letter": "C",
+          "text": "Sprint goal"
+        },
+        {
+          "letter": "D",
+          "text": "User story acceptance criteria"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "20. Which of the following is NOT a typical responsibility of an entry-level project manager?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Writing low-level frontend code fixes"
+        },
+        {
+          "letter": "B",
+          "text": "Maintaining burndown charts"
+        },
+        {
+          "letter": "C",
+          "text": "Scheduling ceremonies"
+        },
+        {
+          "letter": "D",
+          "text": "Reporting status to stakeholders"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

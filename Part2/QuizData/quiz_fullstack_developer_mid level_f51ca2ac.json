@@ -1,0 +1,466 @@
+{
+  "quiz_id": "quiz_fullstack_developer_mid level_f51ca2ac",
+  "job_info": {
+    "job_title": "Fullstack Developer",
+    "role_description": "Candidate should be proficient in theory of automata",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Mid Level"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Frontend"
+      ],
+      "soft_skills": []
+    },
+    "job_responsibilities": [
+      "To teach theory of automata"
+    ]
+  },
+  "metadata": {
+    "question_count": 20,
+    "level": "Mid Level"
+  },
+  "questions": [
+    {
+      "question": "Which of the following correctly defines a Deterministic Finite Automaton (DFA)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A machine that allows ε-transitions and multiple next states for one input"
+        },
+        {
+          "letter": "B",
+          "text": "A 5-tuple (Q, Σ, δ, q₀, F) where δ maps Q × Σ → Q"
+        },
+        {
+          "letter": "C",
+          "text": "A machine that accepts only empty strings"
+        },
+        {
+          "letter": "D",
+          "text": "A 6-tuple that requires a stack in its transition function"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. The regular expression (a+b)*ab(a+b)* describes which language?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Strings that contain at least two consecutive a’s"
+        },
+        {
+          "letter": "B",
+          "text": "Strings that contain the substring ab at least once"
+        },
+        {
+          "letter": "C",
+          "text": "Strings that start with ab"
+        },
+        {
+          "letter": "D",
+          "text": "Strings that end with ab"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "3. Converting an NFA to a DFA via subset construction may yield how many states in the worst case?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "|Q|"
+        },
+        {
+          "letter": "B",
+          "text": "2^|Q|"
+        },
+        {
+          "letter": "C",
+          "text": "|Σ|"
+        },
+        {
+          "letter": "D",
+          "text": "|Q| × |Σ|"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "4. The Pumping Lemma for regular languages is primarily used to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prove that a language is regular"
+        },
+        {
+          "letter": "B",
+          "text": "Minimize a DFA"
+        },
+        {
+          "letter": "C",
+          "text": "Prove that a language is not regular"
+        },
+        {
+          "letter": "D",
+          "text": "Convert an NFA to a regular expression"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "5. A context-free grammar is in Chomsky Normal Form (CNF) if every production is of the form:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A → BC or A → a or S → ε (if ε ∈ L)"
+        },
+        {
+          "letter": "B",
+          "text": "A → αBβ"
+        },
+        {
+          "letter": "C",
+          "text": "A → aB"
+        },
+        {
+          "letter": "D",
+          "text": "A → ε only"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "6. Which problem is undecidable for context-free grammars?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Membership (whether w ∈ L(G))"
+        },
+        {
+          "letter": "B",
+          "text": "Emptiness (whether L(G) = ∅)"
+        },
+        {
+          "letter": "C",
+          "text": "Ambiguity (whether G is ambiguous)"
+        },
+        {
+          "letter": "D",
+          "text": "Finiteness (whether L(G) is finite)"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. A Turing machine enters an infinite loop on input w. This is an instance of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The Halting Problem"
+        },
+        {
+          "letter": "B",
+          "text": "The word problem for DFAs"
+        },
+        {
+          "letter": "C",
+          "text": "The equivalence problem for regular expressions"
+        },
+        {
+          "letter": "D",
+          "text": "The membership problem for regular languages"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "8. The class of languages accepted by nondeterministic Turing machines is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proper subset of regular languages"
+        },
+        {
+          "letter": "B",
+          "text": "Equal to the class accepted by deterministic Turing machines"
+        },
+        {
+          "letter": "C",
+          "text": "Equal to context-free languages only"
+        },
+        {
+          "letter": "D",
+          "text": "Equal to recursive languages only"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. The Myhill–Nerode theorem is used to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Minimize a DFA and prove non-regularity"
+        },
+        {
+          "letter": "B",
+          "text": "Convert an NFA to a regular expression"
+        },
+        {
+          "letter": "C",
+          "text": "Prove that every NFA has an equivalent PDA"
+        },
+        {
+          "letter": "D",
+          "text": "Show that CFLs are closed under intersection"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "10. Which operation is context-free languages NOT closed under?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Union"
+        },
+        {
+          "letter": "B",
+          "text": "Kleene star"
+        },
+        {
+          "letter": "C",
+          "text": "Intersection"
+        },
+        {
+          "letter": "D",
+          "text": "Concatenation"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "11. A language is recursive if and only if:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A Turing machine accepts it and always halts"
+        },
+        {
+          "letter": "B",
+          "text": "A linear-bounded automaton accepts it"
+        },
+        {
+          "letter": "C",
+          "text": "A DFA accepts it"
+        },
+        {
+          "letter": "D",
+          "text": "A context-free grammar generates it"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. The set of all Turing machines encoded in binary is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Finite"
+        },
+        {
+          "letter": "B",
+          "text": "Countably infinite"
+        },
+        {
+          "letter": "C",
+          "text": "Uncountably infinite"
+        },
+        {
+          "letter": "D",
+          "text": "Empty"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. Which of the following languages is not context-free?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "{aⁿbⁿ | n ≥ 0}"
+        },
+        {
+          "letter": "B",
+          "text": "{wwᴿ | w ∈ {a,b}*}"
+        },
+        {
+          "letter": "C",
+          "text": "{aⁿbⁿcⁿ | n ≥ 0}"
+        },
+        {
+          "letter": "D",
+          "text": "{a*b*c*}"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "14. The minimal number of states needed for a DFA that accepts all strings over {a,b} ending with “aa” is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "3"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "5"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "15. A grammar is ambiguous if:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It has more than one production for a non-terminal"
+        },
+        {
+          "letter": "B",
+          "text": "Some string has at least two distinct parse trees"
+        },
+        {
+          "letter": "C",
+          "text": "It generates an infinite language"
+        },
+        {
+          "letter": "D",
+          "text": "It is not in CNF"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "16. The complement of a recursive language is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Not necessarily recursive"
+        },
+        {
+          "letter": "B",
+          "text": "Always recursively enumerable but not recursive"
+        },
+        {
+          "letter": "C",
+          "text": "Always recursive"
+        },
+        {
+          "letter": "D",
+          "text": "Never recursively enumerable"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "17. Which statement about NPDA and DPDA is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Every language accepted by an NPDA is also accepted by some DPDA"
+        },
+        {
+          "letter": "B",
+          "text": "DPDAs accept exactly the regular languages"
+        },
+        {
+          "letter": "C",
+          "text": "NPDAs accept more languages than DPDAs"
+        },
+        {
+          "letter": "D",
+          "text": "NPDAs and DPDAs have equal expressive power"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "18. The language {aⁿbᵐ | n ≠ m} is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Regular"
+        },
+        {
+          "letter": "B",
+          "text": "Context-free but not regular"
+        },
+        {
+          "letter": "C",
+          "text": "Context-sensitive but not context-free"
+        },
+        {
+          "letter": "D",
+          "text": "Recursively enumerable but not context-sensitive"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "19. Rice’s theorem implies that every non-trivial semantic property of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Regular languages is decidable"
+        },
+        {
+          "letter": "B",
+          "text": "Context-free grammars is decidable"
+        },
+        {
+          "letter": "C",
+          "text": "Recursively enumerable languages is undecidable"
+        },
+        {
+          "letter": "D",
+          "text": "DFAs is undecidable"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "20. A linear-bounded automaton is equivalent in power to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Finite automata"
+        },
+        {
+          "letter": "B",
+          "text": "Pushdown automata"
+        },
+        {
+          "letter": "C",
+          "text": "Context-sensitive grammars"
+        },
+        {
+          "letter": "D",
+          "text": "Turing machines with infinite tape"
+        }
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}

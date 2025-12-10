@@ -1,0 +1,14 @@
+{
+    "overall_score": 40,
+    "strengths": [
+        "Demonstrated familiarity with FastAPI and its async support",
+        "Acknowledged use of AI tools (GPT) for Dockerfile generation",
+        "Showed awareness of C++ limitations for backend services"
+    ],
+    "weaknesses": [
+        "Could not explain fundamental Theory of Automata concepts (DFA vs NFA)",
+        "Vague or incorrect answers on authentication implementation",
+        "No recall of Docker base image details despite listing Docker as a skill"
+    ],
+    "hiring_recommendation": "No Hire (Fails Minimum Criteria)"
+}

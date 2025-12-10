@@ -1,0 +1,377 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_47880cc4",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in the training and fine-tuning of models to improve accuracy and efficiency; conduct research on emerging AI/ML techniques and contribute to proof-of-concept development; document model development, research, and performance metrics for future reference and learning; collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient; assist in the development and implementation of machine learning models for various business applications",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Strong problem-solving skills",
+        "Ability to work effectively in a team environment",
+        "Willingness to continuously learn"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "Which Python library is primarily used for building and training deep-learning models with a high-level, Keras-like API?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "scikit-learn"
+        },
+        {
+          "letter": "B",
+          "text": "TensorFlow"
+        },
+        {
+          "letter": "C",
+          "text": "Pandas"
+        },
+        {
+          "letter": "D",
+          "text": "NumPy"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. In Keras, which callback automatically stops training early when validation loss stops improving?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ModelCheckpoint"
+        },
+        {
+          "letter": "B",
+          "text": "ReduceLROnPlateau"
+        },
+        {
+          "letter": "C",
+          "text": "EarlyStopping"
+        },
+        {
+          "letter": "D",
+          "text": "TensorBoard"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "3. What is the default optimizer in `model.compile()` if none is specified?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SGD"
+        },
+        {
+          "letter": "B",
+          "text": "RMSprop"
+        },
+        {
+          "letter": "C",
+          "text": "Adam"
+        },
+        {
+          "letter": "D",
+          "text": "Adagrad"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "4. Which PyTorch class is used to wrap your data so it can be loaded in mini-batches?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TensorDataset"
+        },
+        {
+          "letter": "B",
+          "text": "DataLoader"
+        },
+        {
+          "letter": "C",
+          "text": "Dataset"
+        },
+        {
+          "letter": "D",
+          "text": "BatchSampler"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "6. Which SQL clause is used to remove duplicate rows from a result set?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "UNIQUE"
+        },
+        {
+          "letter": "B",
+          "text": "DISTINCT"
+        },
+        {
+          "letter": "C",
+          "text": "GROUP BY"
+        },
+        {
+          "letter": "D",
+          "text": "LIMIT"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "7. What Git command moves changes from the staging area into the local repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git add"
+        },
+        {
+          "letter": "B",
+          "text": "git push"
+        },
+        {
+          "letter": "C",
+          "text": "git commit"
+        },
+        {
+          "letter": "D",
+          "text": "git stash"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "8. Which layer type in TensorFlow/Keras is best suited for processing 28×28 grayscale images?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dense"
+        },
+        {
+          "letter": "B",
+          "text": "LSTM"
+        },
+        {
+          "letter": "C",
+          "text": "Conv2D"
+        },
+        {
+          "letter": "D",
+          "text": "GRU"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "9. In PyTorch, moving a model from CPU to GPU is done via:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "model.gpu()"
+        },
+        {
+          "letter": "B",
+          "text": "model.to('cuda')"
+        },
+        {
+          "letter": "C",
+          "text": "model.device('cuda')"
+        },
+        {
+          "letter": "D",
+          "text": "torch.cuda(model)"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. Which scikit-learn utility splits data into train/test sets while preserving class proportions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "train_test_split with shuffle=True"
+        },
+        {
+          "letter": "B",
+          "text": "StratifiedShuffleSplit"
+        },
+        {
+          "letter": "C",
+          "text": "KFold"
+        },
+        {
+          "letter": "D",
+          "text": "GridSearchCV"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "11. To handle missing numeric data in a pandas DataFrame, which method replaces them with the column mean?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "df.dropna()"
+        },
+        {
+          "letter": "B",
+          "text": "df.fillna(df.mean())"
+        },
+        {
+          "letter": "C",
+          "text": "df.replace(np.nan, df.mean())"
+        },
+        {
+          "letter": "D",
+          "text": "df.impute('mean')"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "12. What does the ReLU activation function output for any negative input?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "-1"
+        },
+        {
+          "letter": "B",
+          "text": "0"
+        },
+        {
+          "letter": "C",
+          "text": "The input unchanged"
+        },
+        {
+          "letter": "D",
+          "text": "A small positive value"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. Which metric is most appropriate for evaluating a binary-classifier’s performance on an imbalanced dataset?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Accuracy"
+        },
+        {
+          "letter": "B",
+          "text": "Precision-Recall AUC"
+        },
+        {
+          "letter": "C",
+          "text": "Mean squared error"
+        },
+        {
+          "letter": "D",
+          "text": "R²"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. When fine-tuning a pre-trained Keras model, which parameter must be set to False to keep certain layers frozen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "trainable"
+        },
+        {
+          "letter": "B",
+          "text": "learning_rate"
+        },
+        {
+          "letter": "C",
+          "text": "activation"
+        },
+        {
+          "letter": "D",
+          "text": "weights"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "15. In Git, which command undoes the last commit but keeps changes in the working directory?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git reset --hard HEAD~1"
+        },
+        {
+          "letter": "B",
+          "text": "git revert HEAD"
+        },
+        {
+          "letter": "C",
+          "text": "git reset --soft HEAD~1"
+        },
+        {
+          "letter": "D",
+          "text": "git checkout HEAD~1"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "You are preprocessing a pandas DataFrame `df` that contains both numeric and categorical columns. Which single-line statement correctly scales the numeric columns to the 0–1 range and one-hot encodes the categorical columns while keeping the result also as a DataFrame?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`pd.concat([MinMaxScaler().fit_transform(df.select_dtypes(include=np.number)), pd.get_dummies(df.select_dtypes(exclude=np.number))], axis=1)`"
+        },
+        {
+          "letter": "B",
+          "text": "`pd.DataFrame(MinMaxScaler().fit_transform(df))`"
+        },
+        {
+          "letter": "C",
+          "text": "`pd.concat([StandardScaler().fit_transform(df.select_dtypes(include=np.number)), pd.get_dummies(df.select_dtypes(exclude=np.number))], axis=1)`"
+        },
+        {
+          "letter": "D",
+          "text": "`pd.get_dummies(df, drop_first=True)`"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

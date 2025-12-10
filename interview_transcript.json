@@ -1,0 +1,149 @@
+{
+    "timestamp": 1765310368.060406,
+    "job_level": "General",
+    "candidate_name": "Asad Ullah Shah",
+    "job_description": "{\n    \"job_title\": \"Fullstack Developer\",\n    \"role_description\": \"The candidate should be able to understand the concepts of theory of automata\",\n    \"skills_required\": {\n        \"technical_skills\": [\n            \"Fresh Graduate\"\n        ],\n        \"soft_skills\": []\n    }\n}",
+    "resume_content": "{\n    \"Name\": \"Asad Ullah Shah\",\n    \"Skills\": [\n        \"React.js\",\n        \"Next.js\",\n        \"React Native\",\n        \"Expo\",\n        \"FastAPI\",\n        \"Node.js\",\n        \"SQL\",\n        \"Supabase\",\n        \"Docker\",\n        \"CI/CD\",\n        \"Trello\",\n        \"Git\",\n        \"JavaScript/TypeScript\",\n        \"Python\",\n        \"Golang\",\n        \"C++\",\n        \"Solidity\",\n        \"Figma\",\n        \"AI-assisted dev (Copilot, Cursor)\",\n        \"Theory of Automata\"\n    ],\n    \"Contact\": {\n        \"Email\": \"asadullahshah002@gmail.com\",\n        \"Phone\": \"+92 335 5222247\",\n        \"GitHub\": \"https://github.com/Asadullahshah\",\n        \"LinkedIn\": \"https://www.linkedin.com/in/asad01010/\",\n        \"Location\": \"Islamabad, PK 45000\"\n    },\n    \"Summary\": \"Not specified\",\n    \"Projects\": [\n        {\n            \"Name\": \"Hive Housing Society\",\n            \"Duration\": \"Not specified\",\n            \"Description\": \"University Project: Project Manager. Managed the project using a Trello board to track tasks, deadlines, and team progress. Coordinated a team of three developers building a React frontend and Python backend. Oversaw feature planning, sprint reviews, and progress tracking to ensure timely delivery. Handled comprehensive project documentation to ensure clarity and alignment across the team. Facilitated communication and maintained workflow consistency through regular team updates.\"\n        },\n        {\n            \"Name\": \"Fitness App\",\n            \"Duration\": \"Not specified\",\n            \"Description\": \"Led the frontend team in developing a cross-platform app with React Native and Expo. Collaborated with the project owner and developers to deliver iOS and Android builds on schedule. Implemented reminder notifications to promote consistent healthy habits. Integrated with a Golang backend on Render for scalable, real-time functionality.\"\n        },\n        {\n            \"Name\": \"Interview Den\",\n            \"Duration\": \"Not specified\",\n            \"Description\": \"Final Year Project: Frontend Developer. Developed the frontend using Next.js, integrating with a FastAPI (Python) backend. Deployed on Railway using Docker with a CI/CD pipeline for automated delivery. Collaborated in a team of three under faculty supervision, following the Agile development process. Recorded meeting minutes, maintained documentation, and tracked sprint progress. Presented and defended the project before a review panel, showcasing teamwork and communication skills.\"\n        }\n    ],\n    \"Education\": [\n        {\n            \"GPA\": \"Not specified\",\n            \"Degree\": \"Bachelor of Science in Computer Science\",\n            \"Location\": \"Islamabad, PK\",\n            \"Institution\": \"NUCES\",\n            \"Graduation Year\": \"December 2025\"\n        }\n    ],\n    \"red_flags\": [],\n    \"Experience\": {\n        \"Positions\": [\n            {\n                \"Title\": \"Front-end Developer Intern\",\n                \"Company\": \"Sybrid Pvt.\",\n                \"Duration\": \"June 2025 \\u2013 August 2025\",\n                \"Location\": \"Not specified\",\n                \"Description\": \"Shipped a marketplace module in the farm management dashboard for input trading. Built features using React, Next.js, and best practices in component design and state management. Used Formik, Yup, Axios, and Redux to streamline forms, validation, and API workflows. Collaborated in daily stand-ups, weekly demos, and team syncs to ensure delivery alignment. Contributed to a production codebase, enhancing platform performance and user experience.\"\n            },\n            {\n                \"Title\": \"Full-time Content Writer\",\n                \"Company\": \"Nexicle Consulting\",\n                \"Duration\": \"October 2022 \\u2013 March 2023\",\n                \"Location\": \"Not specified\",\n                \"Description\": \"Wrote 4,000+ words daily in articles, blogs, and SEO-based web content. Conducted thorough research to produce clear and accurate content. Authored full-length books on topics like Gut Health, HRM, and A-Level Sciences. Ensured writing was simple, engaging, and easy to understand for all audiences.\"\n            }\n        ],\n        \"Total Years\": 0\n    },\n    \"fraud_type\": \"None\",\n    \"is_fraudulent\": false,\n    \"Certifications\": []\n}",
+    "transcript": [
+        {
+            "type": "ai",
+            "content": "Hello Asad Ullah Shah, thank you for joining me today. We have a short time, so let's jump right into the technical discussion. How are you doing?"
+        },
+        {
+            "type": "human",
+            "content": "yeah I am great how are you"
+        },
+        {
+            "type": "ai",
+            "content": "Doing well, thanks. Let\u2019s get started.  \nQuestion 1: Your resume lists \u201cTheory of Automata.\u201d Can you explain the difference between a DFA and an NFA to me?"
+        },
+        {
+            "type": "human",
+            "content": "yeah I am"
+        },
+        {
+            "type": "ai",
+            "content": "To ensure clarity, I will repeat the question:  \nExplain the difference between a DFA and an NFA."
+        },
+        {
+            "type": "human",
+            "content": "han han but main Tumhen sunana chah raha tha Itni robotic hai"
+        },
+        {
+            "type": "ai",
+            "content": "Let me clarify that point for you:  \nExplain the difference between a DFA and an NFA."
+        },
+        {
+            "type": "human",
+            "content": "I am sorry I don't know"
+        },
+        {
+            "type": "ai",
+            "content": "Got it\u2014no worries.  \nFollow-up: If you had to pick just one key characteristic that lets you recognize an NFA when you see its state diagram, what would that be?"
+        },
+        {
+            "type": "human",
+            "content": "it would be a strip"
+        },
+        {
+            "type": "ai",
+            "content": "Got it\u2014thanks for the visual cue.  \nQuestion 2: Your final-year project \u201cInterview Den\u201d used Next.js on the frontend and FastAPI on the backend. Could you walk me through how you handled user authentication between these two services?"
+        },
+        {
+            "type": "PROTOCOL",
+            "content": "PROTOCOL_PIVOT_TO_NEW_TOPIC"
+        },
+        {
+            "type": "human",
+            "content": "I used course"
+        },
+        {
+            "type": "ai",
+            "content": "Let me clarify that point for you:  \nHow exactly did you implement user authentication between your Next.js frontend and your FastAPI backend?"
+        },
+        {
+            "type": "human",
+            "content": "I used cross origin reference course"
+        },
+        {
+            "type": "ai",
+            "content": "Follow-up: Could you explain how you secured the tokens or session data that crossed that CORS boundary?"
+        },
+        {
+            "type": "human",
+            "content": "to iska mere pass hal hai Main Usko karta hun"
+        },
+        {
+            "type": "ai",
+            "content": "Understood\u2014thanks for sharing.  \nQuestion 3: Your Hive Housing Society project used a Python backend. Which Python web framework did you choose, and why did it fit the project\u2019s needs better than the alternatives you considered?"
+        },
+        {
+            "type": "PROTOCOL",
+            "content": "PROTOCOL_PIVOT_TO_NEW_TOPIC"
+        },
+        {
+            "type": "human",
+            "content": "fast API because is lightweight and simple"
+        },
+        {
+            "type": "ai",
+            "content": "Follow-up: Beyond being lightweight and simple, what specific FastAPI feature (for example, automatic documentation or async support) did you rely on most while building the Hive Housing backend, and how did it help your team deliver faster?"
+        },
+        {
+            "type": "human",
+            "content": "asing support"
+        },
+        {
+            "type": "ai",
+            "content": "Nice\u2014async support in FastAPI can really streamline concurrent handling.  \nQuestion 4: Your resume mentions Docker for \u201cInterview Den.\u201d Could you describe the single most important instruction you put in the Dockerfile for the FastAPI service to keep the image small and startup fast?"
+        },
+        {
+            "type": "PROTOCOL",
+            "content": "PROTOCOL_PIVOT_TO_NEW_TOPIC"
+        },
+        {
+            "type": "human",
+            "content": "no I use GPT"
+        },
+        {
+            "type": "ai",
+            "content": "Follow-up: When you let GPT generate the Dockerfile, what base image (e.g., python:3.11-slim) did it recommend, and why was that choice optimal for keeping the FastAPI container lightweight?"
+        },
+        {
+            "type": "human",
+            "content": "I don't remember"
+        },
+        {
+            "type": "ai",
+            "content": "Got it\u2014no worries.  \nQuestion 5: You list C++ among your languages. When would you prefer to use C++ over Python for a back-end service component, and can you give me one concrete scenario from your projects where that choice would matter?"
+        },
+        {
+            "type": "PROTOCOL",
+            "content": "PROTOCOL_PIVOT_TO_NEW_TOPIC"
+        },
+        {
+            "type": "human",
+            "content": "I would you C++ for functions but I would never use it as a bacon service because it is not good for that"
+        },
+        {
+            "type": "PROTOCOL",
+            "content": "PROTOCOL_INITIATE_SOFT_CLOSE"
+        },
+        {
+            "type": "ai",
+            "content": "Do you have any final questions for me about the team, the product roadmap, or what success looks like in your first six months here?"
+        },
+        {
+            "type": "human",
+            "content": "yes how"
+        },
+        {
+            "type": "PROTOCOL",
+            "content": "<<END_INTERVIEW>>"
+        },
+        {
+            "type": "ai",
+            "content": "I appreciate your curiosity\u2014feel free to reach out to the recruiting team if any details weren\u2019t covered today. Thanks again for your time, Asad, and we\u2019ll be in touch soon."
+        }
+    ]
+}

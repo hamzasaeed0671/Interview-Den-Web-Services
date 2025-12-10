@@ -1,0 +1,362 @@
+{
+  "quiz_id": "quiz_frontend_developer_mid level_af68dbe8",
+  "job_info": {
+    "job_title": "Frontend Developer",
+    "role_description": "We are looking for a skilled Frontend Developer to join our team and help build intuitive, performant, and visually appealing web applications. You will work closely with designers, backend developers, and product managers to deliver seamless user experiences that align with business goals.",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Mid Level"
+    },
+    "skills_required": {
+      "technical_skills": [],
+      "soft_skills": [
+        "Good problem-solving, debugging, and communication skills."
+      ]
+    },
+    "job_responsibilities": [
+      "Develop responsive, accessible, and user-friendly interfaces using modern frontend frameworks (React, Next.js, Vue, etc.).",
+      "Integrate APIs and backend services to deliver dynamic web experiences.",
+      "Collaborate with UI/UX designers to translate designs into functional components.",
+      "Optimize web applications for speed, scalability, and cross-browser compatibility.",
+      "Participate in code reviews, version control (Git), and agile development practices.",
+      "Debug, test, and maintain code to ensure high quality and reliability.",
+      "Stay updated with the latest frontend trends, libraries, and best practices."
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Mid Level"
+  },
+  "questions": [
+    {
+      "question": "In a React functional component, which Hook is the most appropriate place to perform a side-effect that should run only once after the initial render?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "useState"
+        },
+        {
+          "letter": "B",
+          "text": "useEffect with an empty dependency array"
+        },
+        {
+          "letter": "C",
+          "text": "useCallback"
+        },
+        {
+          "letter": "D",
+          "text": "useRef"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "2. You need to fetch data on the server at request time in Next.js 13+ with the App Router. Which file convention should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "getServerSideProps.tsx"
+        },
+        {
+          "letter": "B",
+          "text": "pages/api/data.ts"
+        },
+        {
+          "letter": "C",
+          "text": "app/data/route.ts"
+        },
+        {
+          "letter": "D",
+          "text": "app/page.tsx with an async Server Component"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "3. Which CSS strategy forces a 16:9 aspect ratio on a responsive container while maintaining flow content?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "padding-top: 56.25% on the wrapper"
+        },
+        {
+          "letter": "B",
+          "text": "height: 9vw; width: 16vw"
+        },
+        {
+          "letter": "C",
+          "text": "aspect-ratio: 16 / 9"
+        },
+        {
+          "letter": "D",
+          "text": "Both A and C are valid today"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "4. A Vue 3 composable returns a ref. How should you properly destructure it in a component so the variable stays reactive?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "const { value } = useCount()"
+        },
+        {
+          "letter": "B",
+          "text": "const count = useCount()"
+        },
+        {
+          "letter": "C",
+          "text": "const count = toRef(useCount())"
+        },
+        {
+          "letter": "D",
+          "text": "const { count } = toRefs(useCount())"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. Which HTTP caching header is the most effective for immutable static assets hashed by webpack?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cache-Control: no-cache"
+        },
+        {
+          "letter": "B",
+          "text": "Cache-Control: max-age=0"
+        },
+        {
+          "letter": "C",
+          "text": "Cache-Control: public, max-age=31536000, immutable"
+        },
+        {
+          "letter": "D",
+          "text": "Expires: 0"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "6. You want to split a large React bundle lazily. Which syntax dynamically imports a component?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "import Component from './Component'"
+        },
+        {
+          "letter": "B",
+          "text": "const Component = () => import('./Component')"
+        },
+        {
+          "letter": "C",
+          "text": "const Component = lazy(() => import('./Component'))"
+        },
+        {
+          "letter": "D",
+          "text": "require('./Component')"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. Which accessibility attribute is the most appropriate for associating an error message with an input?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "aria-label"
+        },
+        {
+          "letter": "B",
+          "text": "aria-describedby"
+        },
+        {
+          "letter": "C",
+          "text": "aria-errormessage"
+        },
+        {
+          "letter": "D",
+          "text": "role=\"alert\""
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "8. Which method efficiently prevents a flash of unstyled text (FOUT) when loading a web font?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "font-display: swap"
+        },
+        {
+          "letter": "B",
+          "text": "font-display: block"
+        },
+        {
+          "letter": "C",
+          "text": "font-display: optional"
+        },
+        {
+          "letter": "D",
+          "text": "font-display: fallback"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "9. In Git, you want to move the last three commits to a new branch and remove them from main. Which sequence works?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git checkout -b feature && git checkout main && git reset --hard HEAD~3"
+        },
+        {
+          "letter": "B",
+          "text": "git cherry-pick HEAD~3..HEAD && git checkout main && git reset --hard HEAD~3"
+        },
+        {
+          "letter": "C",
+          "text": "git rebase -i HEAD~3"
+        },
+        {
+          "letter": "D",
+          "text": "git revert HEAD~3..HEAD"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "10. Which ESLint rule helps catch missing dependencies in React useEffect Hooks?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "react-hooks/rules-of-hooks"
+        },
+        {
+          "letter": "B",
+          "text": "react-hooks/exhaustive-deps"
+        },
+        {
+          "letter": "C",
+          "text": "react/prop-types"
+        },
+        {
+          "letter": "D",
+          "text": "no-unused-vars"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "11. You need to share state between two components far apart in React while avoiding prop-drilling. Which built-in solution is the lightest?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Context API"
+        },
+        {
+          "letter": "B",
+          "text": "Redux"
+        },
+        {
+          "letter": "C",
+          "text": "MobX"
+        },
+        {
+          "letter": "D",
+          "text": "Zustand"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. Which CSS property triggers the strongest GPU acceleration for transform animations?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "will-change: auto"
+        },
+        {
+          "letter": "B",
+          "text": "transform: translateZ(0)"
+        },
+        {
+          "letter": "C",
+          "text": "backface-visibility: hidden"
+        },
+        {
+          "letter": "D",
+          "text": "Both B and C are common hacks"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "13. During a code review, you spot `let x = document.getElementById('root'); x.innerHTML = userInput;`. Which attack is this code vulnerable to?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clickjacking"
+        },
+        {
+          "letter": "B",
+          "text": "CSRF"
+        },
+        {
+          "letter": "C",
+          "text": "XSS"
+        },
+        {
+          "letter": "D",
+          "text": "SQL injection"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "14. Which Jest matcher is the most accurate for asserting that an async function rejects with a specific error?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "expect(fn()).rejects.toThrow(Error)"
+        },
+        {
+          "letter": "B",
+          "text": "expect(await fn()).toThrow(Error)"
+        },
+        {
+          "letter": "C",
+          "text": "expect(fn()).toThrow(Error)"
+        },
+        {
+          "letter": "D",
+          "text": "expect(fn).toThrow(Error)"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "15. Which image format offers modern browser support for lossless transparency and typically smaller files than PNG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "JPEG XL"
+        },
+        {
+          "letter": "B",
+          "text": "WebP"
+        },
+        {
+          "letter": "C",
+          "text": "AVIF"
+        },
+        {
+          "letter": "D",
+          "text": "Both B and C are valid today"
+        }
+      ],
+      "correct_answer": "D"
+    }
+  ]
+}

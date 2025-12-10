@@ -1,0 +1,125 @@
+{
+  "timestamp": 1760658665.6251845,
+  "job_level": "Associate",
+  "candidate_name": "Waleed Saeed",
+  "job_description": "{\n    \"job_title\": \"Associate Software Engineer - AI/ML\",\n    \"role_description\": \"Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in the training and fine-tuning of models to improve accuracy and efficiency; conduct research on emerging AI/ML techniques and contribute to proof-of-concept development; document model development, research, and performance metrics for future reference and learning; collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient; assist in the development and implementation of machine learning models for various business applications\",\n    \"experience_required\": {\n        \"years_of_experience\": \"Not specified\",\n        \"level\": \"Associate\"\n    },\n    \"skills_required\": {\n        \"technical_skills\": [\n            \"Python\",\n            \"TensorFlow\",\n            \"Keras\",\n            \"PyTorch\",\n            \"scikit-learn\",\n            \"SQL\",\n            \"Git\"\n        ],\n        \"soft_skills\": [\n            \"Strong problem-solving skills\",\n            \"Ability to work effectively in a team environment\",\n            \"Willingness to continuously learn\"\n        ]\n    },\n    \"preferred_skills\": [\n        \"Understanding of machine learning concepts and algorithms\",\n        \"Exposure to AI/ML through academic projects, internships, or online courses\"\n    ],\n    \"job_responsibilities\": [\n        \"Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling\",\n        \"Collaborate with senior engineers to optimize machine learning models for performance and scalability\",\n        \"Participate in the training and fine-tuning of models to improve accuracy and efficiency\",\n        \"Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development\",\n        \"Document model development, research, and performance metrics for future reference and learning\",\n        \"Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions\",\n        \"Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient\",\n        \"Assist in the development and implementation of machine learning models for various business applications\"\n    ]\n}",
+  "resume_content": "{\n    \"Name\": \"Waleed Saeed\",\n    \"Contact\": {\n        \"Email\": \"waleedsaeed027@gmail.com\",\n        \"Phone\": \"0333-455-3525\",\n        \"LinkedIn\": \"www.linkedin.com/in/waleed-saeed-a5b80522b\",\n        \"GitHub\": \"Not specified\",\n        \"Location\": \"Islamabad, Pakistan\"\n    },\n    \"Summary\": \"Passionate AI Engineer & Data Scientist with expertise in building and deploying advanced AI models, real-time processing, and intelligent automation. Skilled in optimizing AI-driven workflows and developing scalable solutions.\",\n    \"Experience\": {\n        \"Total Years\": 0,\n        \"Positions\": [\n            {\n                \"Title\": \"AI Engineer (Intern)\",\n                \"Company\": \"Codistan Ventures\",\n                \"Location\": \"Islamabad, Pakistan\",\n                \"Duration\": \"Feb 2025 - Current\",\n                \"Description\": \"Developed and deployed AI models, including RAG, fine-tuned architectures, and voice-controlled systems. Designed APIs and tools to make AI models easily integratable into production systems.\"\n            },\n            {\n                \"Title\": \"AI Automation Engineer (Part-time)\",\n                \"Company\": \"Freelance\",\n                \"Location\": \"WorldWide\",\n                \"Duration\": \"Sept 2024 - Jan 2025\",\n                \"Description\": \"Automated tasks using Make.com and Zapier, integrating AI-powered chatbots and automated email responses. Optimized business processes by up to 80% through task automation, significantly reducing manual workload.\"\n            },\n            {\n                \"Title\": \"Remote Content Writer\",\n                \"Company\": \"Hired AI\",\n                \"Location\": \"UAE\",\n                \"Duration\": \"Sept 2023 - Aug 2024\",\n                \"Description\": \"Crafted AI-focused Twitter and LinkedIn posts, engaging an audience with technical breakdowns and insights. Developed data-driven content strategies, refining posts based on engagement analytics.\"\n            }\n        ]\n    },\n    \"Education\": [\n        {\n            \"Degree\": \"Bachelor of Data Science\",\n            \"Institution\": \"FAST University\",\n            \"Location\": \"Islamabad, PK\",\n            \"Graduation Year\": \"Ongoing\",\n            \"GPA\": \"Not specified\"\n        }\n    ],\n    \"Skills\": [\n        \"SQL\",\n        \"Python\",\n        \"Pandas\",\n        \"NumPy\",\n        \"SKLearn\",\n        \"MatPlotLib\",\n        \"Kafka\",\n        \"PySpark\",\n        \"Excel\",\n        \"MongoDB\",\n        \"Java\",\n        \"Tableau\",\n        \"C++\",\n        \"Team Lead\",\n        \"Communication\",\n        \"Project Management\",\n        \"Rapid Learning\"\n    ],\n    \"Projects\": [\n        {\n            \"Name\": \"AI-Powered Chrome Extension\",\n            \"Description\": \"Built a Chrome extension that turns webpages & videos into chatbots using AI. Extracted transcripts, generated vector embeddings, and enabled real-time querying.\",\n            \"Duration\": \"March 2025\"\n        },\n        {\n            \"Name\": \"Real-Time Data Warehouse for Metro Wholesale Pakistan\",\n            \"Description\": \"Engineered a real-time data warehouse using Java to merge streaming and pre-existing datasets via mesh join techniques. Implemented indexing and partitioning strategies, reducing query execution time by more than 80%.\",\n            \"Duration\": \"December 2024\"\n        },\n        {\n            \"Name\": \"End-to-End Data Analytical Pipeline in Tableau\",\n            \"Description\": \"Developed a data analytics workflow using Tableau Prep for data transformation, cleaning, and relationship modeling. Designed interactive dashboards and dynamic visualizations.\",\n            \"Duration\": \"November 2024\"\n        },\n        {\n            \"Name\": \"AI-Based Image Classification for Medical Diagnosis\",\n            \"Description\": \"Processed thousands of medical images to detect eye diseases using a KNN-based AI model in Python.\",\n            \"Duration\": \"April 2024\"\n        }\n    ],\n    \"Certifications\": [],\n    \"is_fraudulent\": false,\n    \"fraud_type\": \"None\",\n    \"red_flags\": []\n}",
+  "transcript": [
+    {
+      "type": "ai",
+      "content": "Hello Waleed Saeed, thank thank you for joining me today. We have a short time, so let's jump right into the technical discussion. How are you doing?"
+    },
+    {
+      "type": "human",
+      "content": "im fine"
+    },
+    {
+      "type": "ai",
+      "content": "Great, let’s dive in.  \nI see you recently built a Chrome extension that uses vector embeddings to turn webpages into chatbots. Could you walk me through the exact steps you took to generate and store those embeddings so the extension could query them in real time?"
+    },
+    {
+      "type": "human",
+      "content": "Uh, yeah… I just grabbed the page text, created embeddings with the API, and stored them in a Python list. When a user asked something, I compared the query embedding to all stored ones and picked the top 3 matches. It worked okay for small pages, but bigger pages were slower."
+    },
+    {
+      "type": "ai",
+      "content": "As the page size grew, the linear scan you described would obviously slow down.  \nFollow-up: what single change would you make first—still using the same embedding model—to keep retrieval fast on large documents without rewriting the entire extension?"
+    },
+    {
+      "type": "human",
+      "content": "Uh, I guess I’d use a library like FAISS to index the embeddings so I wouldn’t have to compare every single one each time. That should make it faster for bigger pages."
+    },
+    {
+      "type": "ai",
+      "content": "Got it—FAISS is a solid first step.  \nNext topic: in your Real-Time Data Warehouse project you mentioned mesh joins to merge streaming and historical data. Can you explain how you handled late-arriving tuples so the final merged table stayed consistent?"
+    },
+    {
+      "type": "PROTOCOL",
+      "content": "PROTOCOL_PIVOT_TO_NEW_TOPIC"
+    },
+    {
+      "type": "human",
+      "content": "Uh… I didn’t do anything special for late-arriving tuples. I just let them get added when they came in and reran queries if something seemed off."
+    },
+    {
+      "type": "ai",
+      "content": "Follow-up: what simple mechanism—like a watermark or short-time buffering window—would you add to the mesh-join pipeline to prevent inconsistent results when those late tuples arrive?"
+    },
+    {
+      "type": "human",
+      "content": "Uh, maybe I’d add a small buffer or delay so incoming data could settle before joining. I haven’t implemented it yet, but that seems like it might help avoid inconsistencies."
+    },
+    {
+      "type": "ai",
+      "content": "Understood—buffering late events is a practical next step.  \nQuestion 3: in your AI-Based Image Classification project for medical diagnosis you used KNN. What made you pick KNN over a convolutional approach, and how did you decide on the optimal k value for the classifier?"
+    },
+    {
+      "type": "PROTOCOL",
+      "content": "PROTOCOL_PIVOT_TO_NEW_TOPIC"
+    },
+    {
+      "type": "human",
+      "content": "Uh, yeah… I picked KNN because it was simple to implement and I was mostly experimenting. I just tried a few small k values like 3 or 5 and picked the one that gave the best results on a small test set."
+    },
+    {
+      "type": "ai",
+      "content": "Follow-up: how would you validate that a k chosen on such a small test set actually generalises—what quick cross-validation or hold-out strategy would you apply?"
+    },
+    {
+      "type": "human",
+      "content": "Uh… I didn’t really do proper cross-validation. I just split the dataset once into a small train and test set and checked accuracy there. I didn’t apply any k-fold or repeated hold-out strategy."
+    },
+    {
+      "type": "ai",
+      "content": "Thanks for clarifying.  \n\nQuestion 4: you list TensorFlow/Keras among the job’s required skills. Could you describe one concrete way you’ve used Keras to improve training speed or model accuracy in any of your projects?"
+    },
+    {
+      "type": "PROTOCOL",
+      "content": "PROTOCOL_PIVOT_TO_NEW_TOPIC"
+    },
+    {
+      "type": "human",
+      "content": "Uh… I haven’t done much with Keras directly. I mostly stuck to basic model training with default settings and didn’t really tweak anything to improve speed or accuracy."
+    },
+    {
+      "type": "ai",
+      "content": "Follow-up: if you were asked tomorrow to speed up that basic Keras training run without touching the model architecture, what’s the first built-in callback or parameter (like learning-rate scheduling, early stopping, or mixed precision) that you would add to cut wall-clock time?"
+    },
+    {
+      "type": "human",
+      "content": "Uh… I guess I’d try adding early stopping so the training would stop once it stopped improving. I haven’t used it much, but it seems like it could save time."
+    },
+    {
+      "type": "ai",
+      "content": "Got it—early stopping can definitely shave off unnecessary epochs.  \n\nFinal technical question: the role involves “developing deployment pipelines for ML models.” Looking at your Chrome-extension project, if you had to containerize the embedding-generation service so other teams could hit it reliably at scale, what two items would you put in the Dockerfile to ensure the environment is reproducible and the container stays lightweight?"
+    },
+    {
+      "type": "PROTOCOL",
+      "content": "PROTOCOL_PIVOT_TO_NEW_TOPIC"
+    },
+    {
+      "type": "human",
+      "content": "Uh… I’d probably start by specifying the Python version in the Dockerfile and installing the required packages from a requirements.txt. That should make the environment reproducible and keep things simple."
+    },
+    {
+      "type": "PROTOCOL",
+      "content": "PROTOCOL_INITIATE_SOFT_CLOSE"
+    },
+    {
+      "type": "ai",
+      "content": "Do you have any final questions for me about the team, the work, or anything else before we wrap up?"
+    },
+    {
+      "type": "human",
+      "content": "no not really"
+    },
+    {
+      "type": "PROTOCOL",
+      "content": "<<END_INTERVIEW>>"
+    },
+    {
+      "type": "ai",
+      "content": "Perfect—thanks for the quick chat, Waleed. I appreciate your time and wish you the best moving forward."
+    }
+  ]
+}

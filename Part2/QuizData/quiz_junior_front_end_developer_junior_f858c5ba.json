@@ -1,0 +1,378 @@
+{
+  "quiz_id": "quiz_junior_front_end_developer_junior_f858c5ba",
+  "job_info": {
+    "job_title": "Junior Front End Developer",
+    "role_description": "Design and develop the user interface of web applications using HTML, CSS, and JavaScript, collaborating with the development team to ensure quality standards",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Junior"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Angular",
+        "Vue.js",
+        "webpack",
+        "Jest",
+        "Cypress"
+      ],
+      "soft_skills": [
+        "Strong attention to detail",
+        "Analytical skills",
+        "Excellent communication skills",
+        "Ability to work independently and collaboratively",
+        "Strong problem-solving skills",
+        "Creative and strategic thinking"
+      ]
+    },
+    "preferred_skills": [],
+    "job_responsibilities": [
+      "Design and develop the user interface of web applications using HTML, CSS, and JavaScript",
+      "Collaborate with the development team to ensure that the user interface meets the specified requirements and quality standards",
+      "Debug and resolve issues in the front-end code, including performance and usability issues",
+      "Participate in code reviews and contribute to the development of new features and functionality",
+      "Develop and maintain reusable UI components and libraries",
+      "Participate in the development and maintenance of the application documentation",
+      "Stay current with industry trends and developments in front-end development"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Junior"
+  },
+  "questions": [
+    {
+      "question": "You’re building a React component that receives a user prop and must re-render only when the user.id changes. Which approach prevents unnecessary re-renders without extra wrappers?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`React.memo(Component, (prev, next) => prev.user.id === next.user.id)`"
+        },
+        {
+          "letter": "B",
+          "text": "`React.memo(Component)` (default shallow compare)"
+        },
+        {
+          "letter": "C",
+          "text": "`useMemo(() => <Component user={user} />, [user])`"
+        },
+        {
+          "letter": "D",
+          "text": "`useCallback(() => <Component user={user} />, [user])`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "2. A Vue 3 single-file component needs to expose a `count` ref to the parent via template ref so the parent can call `increment()`. Which syntax is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`defineExpose({ count, increment })`"
+        },
+        {
+          "letter": "B",
+          "text": "`defineExpose({ count: readonly(count), increment })`"
+        },
+        {
+          "letter": "C",
+          "text": "`defineExpose({ count: unref(count), increment })`"
+        },
+        {
+          "letter": "D",
+          "text": "`defineExpose({ get count() { return count.value }, increment })`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "3. Your Angular template uses `*ngFor=\"let item of items; trackBy: trackFn\"` but the list still flickers on updates. What is the most likely cause?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`trackFn` returns `item` instead of `item.id`"
+        },
+        {
+          "letter": "B",
+          "text": "`trackFn` is an arrow function defined inline"
+        },
+        {
+          "letter": "C",
+          "text": "`items` is reassigned to a new array every poll"
+        },
+        {
+          "letter": "D",
+          "text": "`ChangeDetectionStrategy.OnPush` is missing"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "4. A CSS grid container has `grid-template-columns: repeat(3, 1fr)` but on 400 px screens you want a single column without changing HTML. Which media query works?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`@media (max-width: 400px) { grid-template-columns: 1fr; }`"
+        },
+        {
+          "letter": "B",
+          "text": "`@media (max-width: 400px) { display: block; }`"
+        },
+        {
+          "letter": "C",
+          "text": "`@media (max-width: 400px) { grid-template-columns: 100%; }`"
+        },
+        {
+          "letter": "D",
+          "text": "`@media (max-width: 400px) { grid-auto-flow: row; }`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "5. You must lazy-load the `lodash/debounce` helper in a webpack bundle. Which dynamic import yields the smallest initial chunk?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`import('lodash/debounce')`"
+        },
+        {
+          "letter": "B",
+          "text": "`import(/* webpackChunkName: \"lodash-db\" */ 'lodash/debounce')`"
+        },
+        {
+          "letter": "C",
+          "text": "`import(/* webpackMode: \"lazy\" */ 'lodash/debounce')`"
+        },
+        {
+          "letter": "D",
+          "text": "`import(/* webpackPrefetch: true */ 'lodash/debounce')`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "6. A React form uses `useState({ name: '', age: 0 })`. After typing in the name input, the age field resets to 0. What caused it?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`setState({ name: e.target.value })` instead of `setState(prev => ({ ...prev, name: e.target.value }))`"
+        },
+        {
+          "letter": "B",
+          "text": "Missing `key` prop on inputs"
+        },
+        {
+          "letter": "C",
+          "text": "`defaultValue` instead of `value`"
+        },
+        {
+          "letter": "D",
+          "text": "`useEffect` resetting state"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "7. In Cypress, you need to stub a GET `/api/user` call and return `{ id: 1 }`. Which intercept is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`cy.intercept('GET', '/api/user', { id: 1 })`"
+        },
+        {
+          "letter": "B",
+          "text": "`cy.intercept('/api/user', { fixture: 'user.json' })`"
+        },
+        {
+          "letter": "C",
+          "text": "`cy.intercept('GET', '/api/user', { body: { id: 1 } })`"
+        },
+        {
+          "letter": "D",
+          "text": "`cy.intercept({ method: 'GET', url: '/api/user' }, { id: 1 })`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "8. A Jest snapshot test keeps failing because the generated ID changes every run. How do you stabilize it?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`Math.random = jest.fn(() => 0.5)`"
+        },
+        {
+          "letter": "B",
+          "text": "Use `expect(container).toMatchSnapshot({ id: expect.any(String) })`"
+        },
+        {
+          "letter": "C",
+          "text": "Mock the module that creates IDs with a deterministic implementation"
+        },
+        {
+          "letter": "D",
+          "text": "Set `snapshotSerializers` to strip dynamic fields"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "9. You need to share a styled button between React and Vue codebases. Which approach gives the best long-term maintainability?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Copy-paste the JSX and Vue versions"
+        },
+        {
+          "letter": "B",
+          "text": "Create a framework-agnostic web component"
+        },
+        {
+          "letter": "C",
+          "text": "Publish two separate packages `react-button` and `vue-button`"
+        },
+        {
+          "letter": "D",
+          "text": "Use a CSS-only class in both projects"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. An Angular service uses `providedIn: 'root'` but tests need an isolated instance. How do you override it in a TestBed?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`TestBed.configureTestingModule({ providers: [MyService] })`"
+        },
+        {
+          "letter": "B",
+          "text": "`TestBed.overrideProvider(MyService, { useValue: mock })`"
+        },
+        {
+          "letter": "C",
+          "text": "`TestBed.configureTestingModule({ providers: [{ provide: MyService, useValue: mock }] })`"
+        },
+        {
+          "letter": "D",
+          "text": "Remove `providedIn` and declare in every component"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "11. A webpack 5 build shows “Critical dependency” warnings for `fs`. What is the quickest fix?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add `target: 'node'`"
+        },
+        {
+          "letter": "B",
+          "text": "Mark `fs` as `externals`"
+        },
+        {
+          "letter": "C",
+          "text": "Add `browser: { fs: false }` in package.json"
+        },
+        {
+          "letter": "D",
+          "text": "Use `resolve.fallback: { fs: false }`"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "13. You must enforce that every commit message starts with a ticket number. Which Git hook should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`pre-commit`"
+        },
+        {
+          "letter": "B",
+          "text": "`commit-msg`"
+        },
+        {
+          "letter": "C",
+          "text": "`pre-push`"
+        },
+        {
+          "letter": "D",
+          "text": "`prepare-commit-msg`"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. A React app uses CSS Modules but a third-party library class `.btn` is being hashed. How do you preserve it?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`:global(.btn) { }`"
+        },
+        {
+          "letter": "B",
+          "text": "`composes: btn from global;`"
+        },
+        {
+          "letter": "C",
+          "text": "`import styles from 'library/btn.css';`"
+        },
+        {
+          "letter": "D",
+          "text": "Add `exclude: /node_modules/` to css-loader"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "15. An Angular reactive form has a nested `address` group; you want to disable the entire group conditionally. Which call works?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "`form.get('address').disable()`"
+        },
+        {
+          "letter": "B",
+          "text": "`form.controls.address.disable()`"
+        },
+        {
+          "letter": "C",
+          "text": "`form.setControl('address', new FormGroup({...}, { disabled: true }))`"
+        },
+        {
+          "letter": "D",
+          "text": "`form.disable({ onlySelf: true })`"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "A Vue 3 component is mounting but the template references a non-reactive variable created with `let count = 0`.  \nThe developer needs the UI to update whenever `count` changes.  \nWhich single-line change best fixes the issue?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Replace `let count = 0` with `const count = ref(0)`"
+        },
+        {
+          "letter": "B",
+          "text": "Replace `let count = 0` with `const count = reactive(0)`"
+        },
+        {
+          "letter": "C",
+          "text": "Replace `let count = 0` with `const count = computed(0)`"
+        },
+        {
+          "letter": "D",
+          "text": "Replace `let count = 0` with `const count = readonly(0)`"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

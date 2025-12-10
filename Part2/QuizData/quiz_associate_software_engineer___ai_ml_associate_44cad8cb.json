@@ -1,0 +1,378 @@
+{
+  "quiz_id": "quiz_associate_software_engineer___ai_ml_associate_44cad8cb",
+  "job_info": {
+    "job_title": "Associate Software Engineer - AI/ML",
+    "role_description": "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling; collaborate with senior engineers to optimize machine learning models for performance and scalability; participate in training and fine-tuning of models; conduct research on emerging AI/ML techniques; document model development and performance metrics; collaborate with cross-functional teams to provide AI/ML-driven solutions; assist in developing deployment pipelines for ML models; assist in development and implementation of machine learning models for business applications",
+    "experience_required": {
+      "years_of_experience": "Not specified",
+      "level": "Associate"
+    },
+    "skills_required": {
+      "technical_skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "scikit-learn",
+        "SQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Strong problem-solving skills",
+        "Ability to work effectively in a team environment",
+        "Collaboration with cross-functional teams",
+        "Willingness to continuously learn"
+      ]
+    },
+    "preferred_skills": [
+      "Understanding of machine learning concepts and algorithms",
+      "Exposure to AI/ML through academic projects, internships, or online courses"
+    ],
+    "job_responsibilities": [
+      "Work on data preprocessing, cleaning, and transforming raw data into a usable format for modeling",
+      "Collaborate with senior engineers to optimize machine learning models for performance and scalability",
+      "Participate in the training and fine-tuning of models to improve accuracy and efficiency",
+      "Conduct research on emerging AI/ML techniques and contribute to proof-of-concept development",
+      "Document model development, research, and performance metrics for future reference and learning",
+      "Collaborate with cross-functional teams to understand business problems and provide AI/ML-driven solutions",
+      "Assist in developing deployment pipelines for ML models, ensuring they are scalable and efficient",
+      "Assist in the development and implementation of machine learning models for various business applications"
+    ]
+  },
+  "metadata": {
+    "question_count": 15,
+    "level": "Associate"
+  },
+  "questions": [
+    {
+      "question": "2. While training a TensorFlow model you observe loss=NaN. Which of the following is the most likely single cause?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ReLU activation in the output layer"
+        },
+        {
+          "letter": "B",
+          "text": "Learning-rate set to 0"
+        },
+        {
+          "letter": "C",
+          "text": "Gradient exploding due to unnormalized inputs"
+        },
+        {
+          "letter": "D",
+          "text": "Using categorical_crossentropy on one-hot targets"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "3. You want to share your local Git branch `feature/ml-123` with a remote colleague. Which command publishes it for the first time?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git push --set-upstream origin feature/ml-123"
+        },
+        {
+          "letter": "B",
+          "text": "git pull origin feature/ml-123"
+        },
+        {
+          "letter": "C",
+          "text": "git branch -r feature/ml-123"
+        },
+        {
+          "letter": "D",
+          "text": "git merge origin feature/ml-123"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "4. In PyTorch, how do you turn off gradient computation for every parameter in a model before inference?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "model.eval()"
+        },
+        {
+          "letter": "B",
+          "text": "torch.no_grad()"
+        },
+        {
+          "letter": "C",
+          "text": "torch.detach()"
+        },
+        {
+          "letter": "D",
+          "text": "optimizer.zero_grad()"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "5. A pandas DataFrame contains a column `price` with outliers. Which scikit-learn transformer is best suited to cap extreme values to a chosen percentile?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "StandardScaler"
+        },
+        {
+          "letter": "B",
+          "text": "RobustScaler"
+        },
+        {
+          "letter": "C",
+          "text": "QuantileTransformer(output_distribution='normal')"
+        },
+        {
+          "letter": "D",
+          "text": "FunctionTransformer with numpy.clip"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "6. Which SQL clause is required to obtain only the latest record per user assuming a column `updated_at`?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GROUP BY user_id ORDER BY updated_at DESC"
+        },
+        {
+          "letter": "B",
+          "text": "SELECT DISTINCT user_id ORDER BY updated_at DESC"
+        },
+        {
+          "letter": "C",
+          "text": "ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY updated_at DESC)"
+        },
+        {
+          "letter": "D",
+          "text": "RANK() OVER (ORDER BY updated_at DESC GROUP BY user_id)"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "7. In Keras, you add `EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True)`. Training stops at epoch 42. Where are the model weights loaded from?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Epoch 39"
+        },
+        {
+          "letter": "B",
+          "text": "Epoch 42"
+        },
+        {
+          "letter": "C",
+          "text": "The epoch with the lowest val_loss among the last three"
+        },
+        {
+          "letter": "D",
+          "text": "The last epoch before patience expired"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "8. Which metric is most appropriate for evaluating an imbalanced binary classification problem where the positive class is rare?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Accuracy"
+        },
+        {
+          "letter": "B",
+          "text": "Precision"
+        },
+        {
+          "letter": "C",
+          "text": "F1-score"
+        },
+        {
+          "letter": "D",
+          "text": "Mean squared error"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "9. You need to save a trained scikit-learn pipeline that includes custom transformers so a colleague can load it later. Which utility should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "np.save"
+        },
+        {
+          "letter": "B",
+          "text": "pickle or joblib"
+        },
+        {
+          "letter": "C",
+          "text": "model.to_json()"
+        },
+        {
+          "letter": "D",
+          "text": "pandas.to_csv"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "10. A PyTorch DataLoader sets `batch_size=64` and `drop_last=False`. If the dataset has 130 samples, how many batches are produced in one epoch?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "4"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "11. Which Git command safely moves uncommitted changes from the working directory to a temporary shelf so you can switch branches?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git stash"
+        },
+        {
+          "letter": "B",
+          "text": "git stage"
+        },
+        {
+          "letter": "C",
+          "text": "git commit --amend"
+        },
+        {
+          "letter": "D",
+          "text": "git reset --hard"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "12. You want to perform a grid search over two hyper-parameters: `C` ∈ {0.1,1,10} and `kernel` ∈ {'linear','rbf'}` for an SVM. How many total combinations will `GridSearchCV` evaluate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5"
+        },
+        {
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "8"
+        },
+        {
+          "letter": "D",
+          "text": "9"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "13. In TensorFlow 2.x, which callback allows you to reduce the learning-rate when validation loss has plateaued for several epochs?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ModelCheckpoint"
+        },
+        {
+          "letter": "B",
+          "text": "ReduceLROnPlateau"
+        },
+        {
+          "letter": "C",
+          "text": "LearningRateScheduler"
+        },
+        {
+          "letter": "D",
+          "text": "EarlyStopping"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "14. You accidentally committed a large dataset file `data.csv` to Git and want to remove it from the entire repository history. Which command should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "git rm data.csv"
+        },
+        {
+          "letter": "B",
+          "text": "git reset --hard HEAD~1"
+        },
+        {
+          "letter": "C",
+          "text": "git filter-repo or git filter-branch with force-push"
+        },
+        {
+          "letter": "D",
+          "text": "git stash data.csv"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "15. When concatenating two pandas DataFrames along rows with `ignore_index=True`, what happens to the resulting index?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keeps original duplicate indices"
+        },
+        {
+          "letter": "B",
+          "text": "Resets to a 0-based continuous integer index"
+        },
+        {
+          "letter": "C",
+          "text": "Sorts alphabetically"
+        },
+        {
+          "letter": "D",
+          "text": "Drops rows with missing values"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "You have a pandas DataFrame `df` with 100k rows that contains missing values in the column `price`. Which single-line statement both fills the missing values with the median of that column and returns a new DataFrame?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "df.fillna(df.price.median())"
+        },
+        {
+          "letter": "B",
+          "text": "df.assign(price=df.price.fillna(df.price.median()))"
+        },
+        {
+          "letter": "C",
+          "text": "df[\"price\"].fillna(df.price.median(), inplace=True)"
+        },
+        {
+          "letter": "D",
+          "text": "df.price.fillna(df.price.median())"
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}
