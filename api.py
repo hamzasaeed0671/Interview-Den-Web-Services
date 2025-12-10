@@ -26,7 +26,8 @@ app = FastAPI(title="Resume–Job Matching API")
 # THEN add CORS middleware configuration for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[".*"],
+    allow_origins=[ "https://fyp-production-9394.up.railway.app",  # Your frontend URL
+        "http://localhost:3000",  ],
     allow_credentials=True,
     allow_methods=["*"],              # Allow all methods (POST, GET, etc.)
     allow_headers=["*"],              # Allow all headers
